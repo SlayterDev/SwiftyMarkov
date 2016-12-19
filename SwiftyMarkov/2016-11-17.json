@@ -1,0 +1,2611 @@
+[
+    {
+        "username": "IFTTT",
+        "icons": {
+            "image_36": "https:\/\/a.slack-edge.com\/8f51\/img\/services\/ifttt_36.png",
+            "image_48": "https:\/\/a.slack-edge.com\/8f51\/img\/services\/ifttt_48.png",
+            "image_72": "https:\/\/a.slack-edge.com\/8f51\/img\/services\/ifttt_72.png"
+        },
+        "attachments": [
+            {
+                "thumb_url": "https:\/\/ifttt.com\/images\/weather\/wind.png",
+                "thumb_width": 310,
+                "thumb_height": 310,
+                "text": "Partly Cloudy\/Wind today \u2014 with a high of 79F (26C) and a low of 59F (15 C). The UV Index is 0, as well. Be prepared!",
+                "fallback": "Partly Cloudy\/Wind today \u2014 with a high of 79F (26C) and a low of 59F (15 C). The UV Index is 0, as well. Be prepared!",
+                "mrkdwn_in": [
+                    "text",
+                    "pretext"
+                ]
+            }
+        ],
+        "mrkdwn": true,
+        "text": null,
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1479387617.015126"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "<@U12V0LN6Q> I\u2019m curious to see what they will fill 102.1 with",
+        "ts": "1479392892.000002"
+    },
+    {
+        "text": "Yes",
+        "type": "message",
+        "subtype": "slackbot_response",
+        "user": "USLACKBOT",
+        "ts": "1479392893.000003"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "I kinda hope they fill it with a station like 101X in Austin",
+        "ts": "1479392913.000004"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": "Me too! I wonder if it'll be something completely different ",
+        "ts": "1479392925.000005"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "Something actuallly cutting edge",
+        "ts": "1479392936.000006"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "lol",
+        "ts": "1479392938.000007"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "the edge was dull",
+        "ts": "1479392942.000008"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "\/giphy dull edge",
+        "bot_id": "B1319SAD6",
+        "attachments": [
+            {
+                "fallback": "giphy: <http:\/\/giphy.com\/gifs\/swords-Oz79t2KfnYRRC>",
+                "image_url": "http:\/\/media2.giphy.com\/media\/Oz79t2KfnYRRC\/giphy.gif",
+                "image_width": 275,
+                "image_height": 129,
+                "image_bytes": 1338181,
+                "is_animated": true,
+                "title": "dull edge",
+                "id": 1,
+                "title_link": "http:\/\/giphy.com\/gifs\/swords-Oz79t2KfnYRRC"
+            }
+        ],
+        "ts": "1479392947.000009"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": "Have you ever listened to 91.7 (I think that's what it is)?",
+        "ts": "1479392956.000010"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "no :open_mouth:",
+        "ts": "1479392965.000011"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "what genre is it?",
+        "ts": "1479392969.000012"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": "I haven't but supposedly it's good alternative I think",
+        "ts": "1479392977.000013"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "I\u2019d be good with that",
+        "ts": "1479392989.000014"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "I just wanna find something that plays new music",
+        "ts": "1479393005.000015"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "even if some of it is indie or underground stuff",
+        "ts": "1479393015.000016"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": "4 realz",
+        "ts": "1479393030.000017"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "I just hope they keep the russ martin show going at the same time",
+        "ts": "1479393101.000018"
+    },
+    {
+        "type": "message",
+        "user": "U12VAQUN4",
+        "text": "91.7 is gewd",
+        "ts": "1479394488.000019"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": "<@U132256GZ> They said on the show yesterday they still have a contract for at least a year so I think they're safe and I heard Cindy Skull (However you spell it) this morning so I don't really know how much is going to change there",
+        "edited": {
+            "user": "U12V0LN6Q",
+            "ts": "1479395428.000000"
+        },
+        "ts": "1479394987.000020"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": "<@U12VAQUN4> Ima give them a shot",
+        "ts": "1479394995.000021"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "oh good",
+        "ts": "1479395662.000023"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "I dont mind Cindy Skull all too much either",
+        "ts": "1479395672.000024"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "just as long as Atom Smasher is gone",
+        "ts": "1479395688.000025"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": "Fur real",
+        "ts": "1479395744.000026"
+    },
+    {
+        "type": "message",
+        "user": "U12VAQUN4",
+        "text": "They don't even talk about anything on the adam smasher show. Just bullshit",
+        "ts": "1479396418.000027"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "I just hate how all he ever talks about is his half retarded offspring",
+        "ts": "1479396483.000028"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "I DONT GIVE 2 SHITS ABOUT YOUR STUPID KID",
+        "ts": "1479396499.000029"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "it was funny though",
+        "ts": "1479396504.000030"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "2 days ago I got in the truck and 102.1 was on from the night before",
+        "ts": "1479396517.000031"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "and it was adam",
+        "ts": "1479396520.000032"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "talking about how people had been DMing him saying his show sucks",
+        "ts": "1479396536.000033"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "and he said something along the lines of \u201ctough luck just change the station ATOM SMASHER HERE TO STAY HURRR HURR HURR\"",
+        "ts": "1479396567.000034"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "then I pulled into my drive way yesterday",
+        "ts": "1479396578.000035"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "to hear Russ\u2019 sweet voice tickle my ears saying",
+        "ts": "1479396598.000036"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "\u201c102.1 is getting cancelled\"",
+        "ts": "1479396612.000037"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "XDDDDDDD",
+        "ts": "1479396621.000038"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "there is a god and he is great",
+        "ts": "1479396629.000039"
+    },
+    {
+        "type": "message",
+        "user": "U12VAQUN4",
+        "text": "Hahaha yessss",
+        "ts": "1479396643.000040"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": "Lol nice",
+        "ts": "1479397170.000041"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": "He was defending himself one morning for spoiling the new Walking Dead episode that had just aired",
+        "ts": "1479397200.000042"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": "He was like \"Wheatever maybe you should've watched it\"",
+        "ts": "1479397224.000043"
+    },
+    {
+        "text": "No",
+        "type": "message",
+        "subtype": "slackbot_response",
+        "user": "USLACKBOT",
+        "ts": "1479397225.000044"
+    },
+    {
+        "type": "message",
+        "user": "U12VAQUN4",
+        "text": "Wowww",
+        "ts": "1479397242.000045"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "Dude seriously??",
+        "ts": "1479397380.000046"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "Definition of a shit person",
+        "ts": "1479397393.000047"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": ":point_up:",
+        "ts": "1479397401.000048"
+    },
+    {
+        "type": "message",
+        "user": "U12VAQUN4",
+        "text": "100.3 is always good at least",
+        "ts": "1479397488.000049"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "Is that Jack fm?",
+        "ts": "1479397543.000050"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": "I'm just not a huge 80's fan",
+        "ts": "1479397561.000051"
+    },
+    {
+        "type": "message",
+        "user": "U12VAQUN4",
+        "text": "Yeah Jack fm lol",
+        "ts": "1479397575.000052"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": "#NotMyEra",
+        "ts": "1479397591.000053"
+    },
+    {
+        "type": "message",
+        "user": "U12VAQUN4",
+        "text": "I dig some good 80s tunes lol",
+        "ts": "1479397597.000054",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U132256GZ"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": "Theres a few I like but I dig modern stuff more I guess.",
+        "ts": "1479397623.000055"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": "But give me some Glass Animals",
+        "ts": "1479397631.000056"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": "hnnnnnggggggggg",
+        "ts": "1479397635.000057"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": "My brother had they're stuff playing on vinyl the other day",
+        "ts": "1479397658.000058"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": "It",
+        "ts": "1479397660.000059"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": "was",
+        "ts": "1479397661.000060"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": "glorious",
+        "ts": "1479397665.000061"
+    },
+    {
+        "type": "message",
+        "user": "U12VAQUN4",
+        "text": "Glass animals? I don't think I've heard them.",
+        "ts": "1479397729.000062"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": "<https:\/\/www.youtube.com\/watch?v=z4ifSSg1HAo>",
+        "attachments": [
+            {
+                "service_name": "YouTube",
+                "service_url": "https:\/\/www.youtube.com\/",
+                "title": "Glass Animals - Toes (Official Audio)",
+                "title_link": "https:\/\/www.youtube.com\/watch?v=z4ifSSg1HAo",
+                "author_name": "Glass Animals",
+                "author_link": "https:\/\/www.youtube.com\/user\/glassanimalsband",
+                "thumb_url": "https:\/\/i.ytimg.com\/vi\/z4ifSSg1HAo\/hqdefault.jpg",
+                "thumb_width": 480,
+                "thumb_height": 360,
+                "fallback": "YouTube Video: Glass Animals - Toes (Official Audio)",
+                "video_html": "<iframe width=\"400\" height=\"225\" src=\"https:\/\/www.youtube.com\/embed\/z4ifSSg1HAo?feature=oembed&autoplay=1&iv_load_policy=3\" frameborder=\"0\" allowfullscreen><\/iframe>",
+                "video_html_width": 400,
+                "video_html_height": 225,
+                "from_url": "https:\/\/www.youtube.com\/watch?v=z4ifSSg1HAo",
+                "service_icon": "https:\/\/a.slack-edge.com\/2089\/img\/unfurl_icons\/youtube.png",
+                "id": 1
+            }
+        ],
+        "ts": "1479397759.000063"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "God they are great :ok_hand::ok_hand::ok_hand:",
+        "ts": "1479397776.000065"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": "You gon learn today",
+        "ts": "1479397782.000066",
+        "reactions": [
+            {
+                "name": "joy",
+                "users": [
+                    "U132256GZ"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U12VAQUN4",
+        "text": "I wanna listen now but my bosses are like \"i need you when you finish eatibg. And i just finished eatinggg",
+        "ts": "1479397851.000067"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": "Well shit XD",
+        "ts": "1479397866.000068"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": "Well give them a listen when you can",
+        "ts": "1479397876.000069"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": "Real chill stuff",
+        "ts": "1479397888.000070"
+    },
+    {
+        "type": "message",
+        "user": "U12VAQUN4",
+        "text": "jk apparently something changed and they don't need me yet lol",
+        "ts": "1479398136.000071"
+    },
+    {
+        "type": "message",
+        "user": "U12VAQUN4",
+        "text": "Holy damn I already like this",
+        "ts": "1479398185.000072"
+    },
+    {
+        "type": "message",
+        "user": "U12VAQUN4",
+        "text": "so smooth jams",
+        "ts": "1479398193.000073"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": "Auditory liquid butter",
+        "edited": {
+            "user": "U12V0LN6Q",
+            "ts": "1479398221.000000"
+        },
+        "ts": "1479398212.000074"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "<@U12VAQUN4> hey do you like mac demarco",
+        "ts": "1479398228.000076"
+    },
+    {
+        "text": "GREETINGS!!",
+        "type": "message",
+        "subtype": "slackbot_response",
+        "user": "USLACKBOT",
+        "ts": "1479398228.000077"
+    },
+    {
+        "type": "message",
+        "user": "U12VAQUN4",
+        "text": "I've wanted to try making music like this. But sadder lol. Good shiiiyet",
+        "ts": "1479398249.000078"
+    },
+    {
+        "type": "message",
+        "user": "U12VAQUN4",
+        "text": "<@U132256GZ> I don't think I've hear em either lol. Or maybe I have and just don't know",
+        "ts": "1479398271.000079"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "got ya",
+        "ts": "1479398282.000080"
+    },
+    {
+        "type": "message",
+        "user": "U12VAQUN4",
+        "text": "<http:\/\/i.imgur.com\/KzCHMAx.gif>",
+        "attachments": [
+            {
+                "fallback": "320x236px image",
+                "image_url": "http:\/\/i.imgur.com\/KzCHMAx.gif",
+                "image_width": 320,
+                "image_height": 236,
+                "image_bytes": 7193112,
+                "is_animated": true,
+                "from_url": "http:\/\/i.imgur.com\/KzCHMAx.gif",
+                "id": 1
+            }
+        ],
+        "ts": "1479400119.000081"
+    },
+    {
+        "type": "message",
+        "user": "U12VAQUN4",
+        "text": "Heheheh",
+        "ts": "1479400121.000083"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "basically my life",
+        "ts": "1479400180.000084"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": ":point_up: Apple's hardware philosophy",
+        "ts": "1479400506.000085"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": "2me_irl4me_irl",
+        "ts": "1479400545.000086"
+    },
+    {
+        "type": "message",
+        "user": "U12VAQUN4",
+        "text": "lol",
+        "ts": "1479400693.000087"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": "<https:\/\/open.spotify.com\/track\/32zkKx35Et6A515oZKxDkD>",
+        "attachments": [
+            {
+                "service_name": "Spotify",
+                "service_url": "https:\/\/www.spotify.com",
+                "title": "Glass Animals - Life Itself",
+                "title_link": "https:\/\/open.spotify.com\/track\/32zkKx35Et6A515oZKxDkD",
+                "thumb_url": "https:\/\/d3rt1990lpmkn.cloudfront.net\/cover\/1ad69327d5e8ee9d4347d7273ecbfb0c472f18c0",
+                "thumb_width": 300,
+                "thumb_height": 300,
+                "fallback": "Spotify Audio: Link: Glass Animals - Life Itself",
+                "audio_html": "<iframe src=\"https:\/\/open.spotify.com\/embed\/track\/32zkKx35Et6A515oZKxDkD\" width=\"300\" height=\"380\" frameborder=\"0\" allowtransparency=\"true\"><\/iframe>",
+                "audio_html_width": 300,
+                "audio_html_height": 380,
+                "from_url": "https:\/\/open.spotify.com\/track\/32zkKx35Et6A515oZKxDkD",
+                "service_icon": "https:\/\/a.slack-edge.com\/e8ef6\/img\/unfurl_icons\/spotify.png",
+                "id": 1
+            }
+        ],
+        "ts": "1479400798.000088",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U132256GZ"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": "Awwwww yisssssss",
+        "ts": "1479400822.000090"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": "Ugh FUCK Spotify commercials!",
+        "ts": "1479400842.000091"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "Thats why I love spotify premium :stuck_out_tongue:",
+        "ts": "1479400860.000092"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": "I don't need another subscription bill XD",
+        "ts": "1479400875.000093"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "XD",
+        "ts": "1479400883.000094"
+    },
+    {
+        "type": "message",
+        "user": "U12VAQUN4",
+        "text": "I had to cancel mine because I found out they were over charging me",
+        "ts": "1479400884.000095"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "oh ya?",
+        "ts": "1479400889.000096"
+    },
+    {
+        "type": "message",
+        "user": "U12VAQUN4",
+        "text": "I had the student version but they were billing me like a regular subscription fee",
+        "ts": "1479400909.000097"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": ":middle_finger: em",
+        "ts": "1479400923.000098"
+    },
+    {
+        "type": "message",
+        "user": "U12VAQUN4",
+        "text": "indeed",
+        "ts": "1479400928.000099"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "fuck that",
+        "ts": "1479400955.000100"
+    },
+    {
+        "type": "message",
+        "user": "U12VAQUN4",
+        "text": "Yeah i caught it while looking over my bank statement and cancelled lol",
+        "ts": "1479401072.000101"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": "So we had this donut last night right? It was called the \"Canadian Healthcare\"",
+        "ts": "1479401507.000102"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": "Not only did it have a strip of bacon and maple syrup",
+        "ts": "1479401524.000103"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": "But they took a creme brule torch and caramelized it before serving it",
+        "ts": "1479401547.000104"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": "\/giphy drool",
+        "bot_id": "B1319SAD6",
+        "attachments": [
+            {
+                "fallback": "giphy: <http:\/\/giphy.com\/gifs\/drool-do-want-QvEvCLuX6VRVC>",
+                "image_url": "http:\/\/media2.giphy.com\/media\/QvEvCLuX6VRVC\/giphy.gif",
+                "image_width": 625,
+                "image_height": 468,
+                "image_bytes": 311262,
+                "is_animated": true,
+                "title": "drool",
+                "id": 1,
+                "title_link": "http:\/\/giphy.com\/gifs\/drool-do-want-QvEvCLuX6VRVC"
+            }
+        ],
+        "ts": "1479401551.000105"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "Omg",
+        "ts": "1479401587.000106"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "Wish I could've gone",
+        "ts": "1479401600.000107"
+    },
+    {
+        "text": "No",
+        "type": "message",
+        "subtype": "slackbot_response",
+        "user": "USLACKBOT",
+        "ts": "1479401601.000108"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": "Damn shut down XD",
+        "ts": "1479401610.000109"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": "Yeah we missed you there man it was a lot of fun'",
+        "ts": "1479401636.000110"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": "Damn habanero donut nearly burned my mouth off tho XD",
+        "ts": "1479401684.000111"
+    },
+    {
+        "type": "message",
+        "user": "U12VAQUN4",
+        "text": "Habanero donut you say??",
+        "ts": "1479402736.000112"
+    },
+    {
+        "type": "message",
+        "user": "U12VAQUN4",
+        "text": "(\u00a0\u0361\u00b0\u00a0\u035c\u0296\u00a0\u0361\u00b0\u00a0)",
+        "ts": "1479402775.000113"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": "Paired with a Habanero Mango something something beer!",
+        "ts": "1479402831.000114"
+    },
+    {
+        "text": "Brad's got all kinds of rare shit in his apartment.",
+        "type": "message",
+        "subtype": "slackbot_response",
+        "user": "USLACKBOT",
+        "ts": "1479402832.000115"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": "First beer that i've had with peppers in it that was actually spicy too",
+        "edited": {
+            "user": "U12V0LN6Q",
+            "ts": "1479402857.000000"
+        },
+        "ts": "1479402845.000116"
+    },
+    {
+        "text": "*hoists stein*",
+        "type": "message",
+        "subtype": "slackbot_response",
+        "user": "USLACKBOT",
+        "ts": "1479402845.000117"
+    },
+    {
+        "type": "message",
+        "user": "U1372C4NM",
+        "text": "It was badass",
+        "ts": "1479402860.000119"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U132256GZ|zaccheezymac> uploaded a file: <https:\/\/flippedbit.slack.com\/files\/zaccheezymac\/F34M1DT9V\/img_20161117_111339.jpg|I had to go suit shopping yesterday>",
+        "file": {
+            "id": "F34M1DT9V",
+            "created": 1479402871,
+            "timestamp": 1479402871,
+            "name": "IMG_20161117_111339.jpg",
+            "title": "I had to go suit shopping yesterday",
+            "mimetype": "image\/jpeg",
+            "filetype": "jpg",
+            "pretty_type": "JPEG",
+            "user": "U132256GZ",
+            "editable": false,
+            "size": 1406334,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T12V0LN2G-F34M1DT9V\/img_20161117_111339.jpg?t=xoxe-36986702084-119441201446-118762000530-0529f55d09",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T12V0LN2G-F34M1DT9V\/download\/img_20161117_111339.jpg?t=xoxe-36986702084-119441201446-118762000530-0529f55d09",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T12V0LN2G-F34M1DT9V-127a2f5a50\/img_20161117_111339_64.jpg?t=xoxe-36986702084-119441201446-118762000530-0529f55d09",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T12V0LN2G-F34M1DT9V-127a2f5a50\/img_20161117_111339_80.jpg?t=xoxe-36986702084-119441201446-118762000530-0529f55d09",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T12V0LN2G-F34M1DT9V-127a2f5a50\/img_20161117_111339_360.jpg?t=xoxe-36986702084-119441201446-118762000530-0529f55d09",
+            "thumb_360_w": 270,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T12V0LN2G-F34M1DT9V-127a2f5a50\/img_20161117_111339_480.jpg?t=xoxe-36986702084-119441201446-118762000530-0529f55d09",
+            "thumb_480_w": 360,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T12V0LN2G-F34M1DT9V-127a2f5a50\/img_20161117_111339_160.jpg?t=xoxe-36986702084-119441201446-118762000530-0529f55d09",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T12V0LN2G-F34M1DT9V-127a2f5a50\/img_20161117_111339_720.jpg?t=xoxe-36986702084-119441201446-118762000530-0529f55d09",
+            "thumb_720_w": 540,
+            "thumb_720_h": 720,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T12V0LN2G-F34M1DT9V-127a2f5a50\/img_20161117_111339_960.jpg?t=xoxe-36986702084-119441201446-118762000530-0529f55d09",
+            "thumb_960_w": 720,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T12V0LN2G-F34M1DT9V-127a2f5a50\/img_20161117_111339_1024.jpg?t=xoxe-36986702084-119441201446-118762000530-0529f55d09",
+            "thumb_1024_w": 768,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 2592,
+            "original_h": 1944,
+            "permalink": "https:\/\/flippedbit.slack.com\/files\/zaccheezymac\/F34M1DT9V\/img_20161117_111339.jpg",
+            "permalink_public": "https:\/\/slack-files.com\/T12V0LN2G-F34M1DT9V-735d95b714",
+            "channels": [
+                "C12VA7G23"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U132256GZ",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "<@U132256GZ|zaccheezymac>",
+        "bot_id": null,
+        "ts": "1479402875.000120"
+    },
+    {
+        "type": "message",
+        "user": "U1372C4NM",
+        "text": "Spiffy af!",
+        "ts": "1479402886.000121"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": "Nice!",
+        "ts": "1479402894.000122"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "reason why I couldnt go out",
+        "ts": "1479402900.000123"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": "What did you have to get a suit for?",
+        "ts": "1479402942.000124"
+    },
+    {
+        "type": "message",
+        "user": "U12VAQUN4",
+        "text": "Ayee",
+        "ts": "1479402949.000125"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "I gotta attend a gala later tonight",
+        "ts": "1479402957.000126"
+    },
+    {
+        "type": "message",
+        "user": "U12VAQUN4",
+        "text": "Hawt suit",
+        "ts": "1479402959.000127"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": "Ah cool!",
+        "ts": "1479402970.000128"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "yuh",
+        "ts": "1479402974.000129"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "I\u2019m excited for the food and open bar",
+        "ts": "1479403020.000130"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": ":point_up: The only real reason to go to a gala XD",
+        "ts": "1479403034.000131"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "eggzactly",
+        "ts": "1479403045.000132"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U12V0LN6Q|slayterdev> uploaded a file: <https:\/\/flippedbit.slack.com\/files\/slayterdev\/F34LRL9JA\/slack_for_ios_upload._null_|Slack for iOS Upload> and commented: TELL ME HAN SOLO DONT LOOK LIKE GEORGE W.????????",
+        "file": {
+            "id": "F34LRL9JA",
+            "created": 1479403123,
+            "timestamp": 1479403123,
+            "name": "Slack for iOS Upload.(null)",
+            "title": "Slack for iOS Upload",
+            "mimetype": "image\/jpeg",
+            "filetype": "jpg",
+            "pretty_type": "JPEG",
+            "user": "U12V0LN6Q",
+            "editable": false,
+            "size": 2298532,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T12V0LN2G-F34LRL9JA\/slack_for_ios_upload._null_?t=xoxe-36986702084-119441201446-118762000530-0529f55d09",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T12V0LN2G-F34LRL9JA\/download\/slack_for_ios_upload._null_?t=xoxe-36986702084-119441201446-118762000530-0529f55d09",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T12V0LN2G-F34LRL9JA-74e827bd6a\/slack_for_ios_upload_64.jpg?t=xoxe-36986702084-119441201446-118762000530-0529f55d09",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T12V0LN2G-F34LRL9JA-74e827bd6a\/slack_for_ios_upload_80.jpg?t=xoxe-36986702084-119441201446-118762000530-0529f55d09",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T12V0LN2G-F34LRL9JA-74e827bd6a\/slack_for_ios_upload_360.jpg?t=xoxe-36986702084-119441201446-118762000530-0529f55d09",
+            "thumb_360_w": 270,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T12V0LN2G-F34LRL9JA-74e827bd6a\/slack_for_ios_upload_480.jpg?t=xoxe-36986702084-119441201446-118762000530-0529f55d09",
+            "thumb_480_w": 360,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T12V0LN2G-F34LRL9JA-74e827bd6a\/slack_for_ios_upload_160.jpg?t=xoxe-36986702084-119441201446-118762000530-0529f55d09",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T12V0LN2G-F34LRL9JA-74e827bd6a\/slack_for_ios_upload_720.jpg?t=xoxe-36986702084-119441201446-118762000530-0529f55d09",
+            "thumb_720_w": 540,
+            "thumb_720_h": 720,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T12V0LN2G-F34LRL9JA-74e827bd6a\/slack_for_ios_upload_960.jpg?t=xoxe-36986702084-119441201446-118762000530-0529f55d09",
+            "thumb_960_w": 720,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T12V0LN2G-F34LRL9JA-74e827bd6a\/slack_for_ios_upload_1024.jpg?t=xoxe-36986702084-119441201446-118762000530-0529f55d09",
+            "thumb_1024_w": 768,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 4032,
+            "original_h": 3024,
+            "permalink": "https:\/\/flippedbit.slack.com\/files\/slayterdev\/F34LRL9JA\/slack_for_ios_upload._null_",
+            "permalink_public": "https:\/\/slack-files.com\/T12V0LN2G-F34LRL9JA-6ce51cb66c",
+            "channels": [
+                "C12VA7G23"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc34LRMHGE",
+                "created": 1479403123,
+                "timestamp": 1479403123,
+                "user": "U12V0LN6Q",
+                "is_intro": true,
+                "comment": "TELL ME HAN SOLO DONT LOOK LIKE GEORGE W.????????",
+                "channel": ""
+            }
+        },
+        "user": "U12V0LN6Q",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "<@U12V0LN6Q|slayterdev>",
+        "bot_id": null,
+        "ts": "1479403129.000133"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "omg",
+        "ts": "1479403176.000134"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": "<@U1372C4NM> :point_up:",
+        "ts": "1479403601.000135"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "<http:\/\/imgur.com\/3UxxlDb>",
+        "attachments": [
+            {
+                "service_name": "Imgur",
+                "title": "I have no idea what's going on here",
+                "title_link": "http:\/\/imgur.com\/3UxxlDb",
+                "text": "Imgur: The most awesome images on the Internet.",
+                "fallback": "Imgur: I have no idea what's going on here",
+                "thumb_url": "http:\/\/i.imgur.com\/3UxxlDbh.jpg",
+                "video_html_width": "414",
+                "video_html_height": "333",
+                "video_url": "https:\/\/i.imgur.com\/3UxxlDb.mp4",
+                "from_url": "http:\/\/imgur.com\/3UxxlDb",
+                "thumb_width": 414,
+                "thumb_height": 333,
+                "service_icon": "http:\/\/s.imgur.com\/images\/favicon-152.png",
+                "id": 1
+            }
+        ],
+        "ts": "1479407172.000136"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "omg",
+        "ts": "1479407174.000138"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": "Yessss!! :joy:",
+        "ts": "1479407321.000139"
+    },
+    {
+        "type": "message",
+        "user": "U12VAQUN4",
+        "text": "Lol 10\/10 themepark",
+        "ts": "1479407433.000140"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": "<http:\/\/www.monkeyuser.com\/2016\/testing-hammering-nails\/>",
+        "attachments": [
+            {
+                "service_name": "MonkeyUser",
+                "title": "Testing: Hammering Nails",
+                "title_link": "http:\/\/www.monkeyuser.com\/2016\/testing-hammering-nails\/",
+                "text": "Software development satire",
+                "fallback": "MonkeyUser: Testing: Hammering Nails",
+                "thumb_url": "http:\/\/www.monkeyuser.com\/assets\/images\/12-testing-hammering-nails.png",
+                "from_url": "http:\/\/www.monkeyuser.com\/2016\/testing-hammering-nails\/",
+                "thumb_width": 600,
+                "thumb_height": 1280,
+                "service_icon": "http:\/\/www.monkeyuser.com\/assets\/images\/favicon.ico",
+                "id": 1
+            }
+        ],
+        "ts": "1479407741.000141"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "I saw that on programmer humor xD so true",
+        "ts": "1479408248.000143"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": "<https:\/\/i.redd.it\/vnidvess97yx.png>",
+        "attachments": [
+            {
+                "fallback": "650x937px image",
+                "image_url": "https:\/\/i.redd.it\/vnidvess97yx.png",
+                "image_width": 650,
+                "image_height": 937,
+                "image_bytes": 632821,
+                "from_url": "https:\/\/i.redd.it\/vnidvess97yx.png",
+                "id": 1
+            }
+        ],
+        "ts": "1479408541.000144"
+    },
+    {
+        "type": "message",
+        "user": "U12VAQUN4",
+        "text": "<https:\/\/media.giphy.com\/media\/l41lKMUKVLezguI2A\/giphy.gif>",
+        "attachments": [
+            {
+                "fallback": "320x320px image",
+                "image_url": "https:\/\/media.giphy.com\/media\/l41lKMUKVLezguI2A\/giphy.gif",
+                "image_width": 320,
+                "image_height": 320,
+                "image_bytes": 7657941,
+                "is_animated": true,
+                "from_url": "https:\/\/media.giphy.com\/media\/l41lKMUKVLezguI2A\/giphy.gif",
+                "id": 1
+            }
+        ],
+        "ts": "1479408962.000146",
+        "reactions": [
+            {
+                "name": "joy",
+                "users": [
+                    "U12V0LN6Q"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U12V0LN6Q|slayterdev> uploaded a file: <https:\/\/flippedbit.slack.com\/files\/slayterdev\/F33C4P8FJ\/slack_for_ios_upload._null_|Slack for iOS Upload> and commented: :joy:",
+        "file": {
+            "id": "F33C4P8FJ",
+            "created": 1479412319,
+            "timestamp": 1479412319,
+            "name": "Slack for iOS Upload.(null)",
+            "title": "Slack for iOS Upload",
+            "mimetype": "image\/jpeg",
+            "filetype": "jpg",
+            "pretty_type": "JPEG",
+            "user": "U12V0LN6Q",
+            "editable": false,
+            "size": 486733,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T12V0LN2G-F33C4P8FJ\/slack_for_ios_upload._null_?t=xoxe-36986702084-119441201446-118762000530-0529f55d09",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T12V0LN2G-F33C4P8FJ\/download\/slack_for_ios_upload._null_?t=xoxe-36986702084-119441201446-118762000530-0529f55d09",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T12V0LN2G-F33C4P8FJ-7c533799d4\/slack_for_ios_upload_64.jpg?t=xoxe-36986702084-119441201446-118762000530-0529f55d09",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T12V0LN2G-F33C4P8FJ-7c533799d4\/slack_for_ios_upload_80.jpg?t=xoxe-36986702084-119441201446-118762000530-0529f55d09",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T12V0LN2G-F33C4P8FJ-7c533799d4\/slack_for_ios_upload_360.jpg?t=xoxe-36986702084-119441201446-118762000530-0529f55d09",
+            "thumb_360_w": 203,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T12V0LN2G-F33C4P8FJ-7c533799d4\/slack_for_ios_upload_480.jpg?t=xoxe-36986702084-119441201446-118762000530-0529f55d09",
+            "thumb_480_w": 270,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T12V0LN2G-F33C4P8FJ-7c533799d4\/slack_for_ios_upload_160.jpg?t=xoxe-36986702084-119441201446-118762000530-0529f55d09",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T12V0LN2G-F33C4P8FJ-7c533799d4\/slack_for_ios_upload_720.jpg?t=xoxe-36986702084-119441201446-118762000530-0529f55d09",
+            "thumb_720_w": 405,
+            "thumb_720_h": 720,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T12V0LN2G-F33C4P8FJ-7c533799d4\/slack_for_ios_upload_960.jpg?t=xoxe-36986702084-119441201446-118762000530-0529f55d09",
+            "thumb_960_w": 540,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T12V0LN2G-F33C4P8FJ-7c533799d4\/slack_for_ios_upload_1024.jpg?t=xoxe-36986702084-119441201446-118762000530-0529f55d09",
+            "thumb_1024_w": 576,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 1242,
+            "original_h": 2208,
+            "permalink": "https:\/\/flippedbit.slack.com\/files\/slayterdev\/F33C4P8FJ\/slack_for_ios_upload._null_",
+            "permalink_public": "https:\/\/slack-files.com\/T12V0LN2G-F33C4P8FJ-642a561ee9",
+            "channels": [
+                "C12VA7G23"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc341H9SQK",
+                "created": 1479412319,
+                "timestamp": 1479412319,
+                "user": "U12V0LN6Q",
+                "is_intro": true,
+                "comment": ":joy:",
+                "channel": ""
+            }
+        },
+        "user": "U12V0LN6Q",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "<@U12V0LN6Q|slayterdev>",
+        "bot_id": null,
+        "ts": "1479412323.000148"
+    },
+    {
+        "type": "message",
+        "user": "U12VAQUN4",
+        "text": "[] rekt\n[] shrekt\n[] e-rekt\n[X] Tyrannosaurus Rekt",
+        "edited": {
+            "user": "U12VAQUN4",
+            "ts": "1479413185.000000"
+        },
+        "ts": "1479413038.000149"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "OMG",
+        "ts": "1479413066.000150"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "YES",
+        "ts": "1479413068.000151"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "YESSSS",
+        "ts": "1479413069.000152"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": "Christmas came early XD",
+        "ts": "1479413079.000153"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U132256GZ|zaccheezymac> uploaded a file: <https:\/\/flippedbit.slack.com\/files\/zaccheezymac\/F345Z7K4L\/pasted_image_at_2016_11_17_02_05_pm.png|Pasted image at 2016-11-17, 2:05 PM>",
+        "file": {
+            "id": "F345Z7K4L",
+            "created": 1479413160,
+            "timestamp": 1479413160,
+            "name": "Pasted image at 2016_11_17 02_05 PM.png",
+            "title": "Pasted image at 2016-11-17, 2:05 PM",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U132256GZ",
+            "editable": false,
+            "size": 1232827,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T12V0LN2G-F345Z7K4L\/pasted_image_at_2016_11_17_02_05_pm.png?t=xoxe-36986702084-119441201446-118762000530-0529f55d09",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T12V0LN2G-F345Z7K4L\/download\/pasted_image_at_2016_11_17_02_05_pm.png?t=xoxe-36986702084-119441201446-118762000530-0529f55d09",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T12V0LN2G-F345Z7K4L-9d751b7931\/pasted_image_at_2016_11_17_02_05_pm_64.png?t=xoxe-36986702084-119441201446-118762000530-0529f55d09",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T12V0LN2G-F345Z7K4L-9d751b7931\/pasted_image_at_2016_11_17_02_05_pm_80.png?t=xoxe-36986702084-119441201446-118762000530-0529f55d09",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T12V0LN2G-F345Z7K4L-9d751b7931\/pasted_image_at_2016_11_17_02_05_pm_360.png?t=xoxe-36986702084-119441201446-118762000530-0529f55d09",
+            "thumb_360_w": 360,
+            "thumb_360_h": 270,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T12V0LN2G-F345Z7K4L-9d751b7931\/pasted_image_at_2016_11_17_02_05_pm_480.png?t=xoxe-36986702084-119441201446-118762000530-0529f55d09",
+            "thumb_480_w": 480,
+            "thumb_480_h": 360,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T12V0LN2G-F345Z7K4L-9d751b7931\/pasted_image_at_2016_11_17_02_05_pm_160.png?t=xoxe-36986702084-119441201446-118762000530-0529f55d09",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T12V0LN2G-F345Z7K4L-9d751b7931\/pasted_image_at_2016_11_17_02_05_pm_720.png?t=xoxe-36986702084-119441201446-118762000530-0529f55d09",
+            "thumb_720_w": 720,
+            "thumb_720_h": 540,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T12V0LN2G-F345Z7K4L-9d751b7931\/pasted_image_at_2016_11_17_02_05_pm_960.png?t=xoxe-36986702084-119441201446-118762000530-0529f55d09",
+            "thumb_960_w": 960,
+            "thumb_960_h": 720,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T12V0LN2G-F345Z7K4L-9d751b7931\/pasted_image_at_2016_11_17_02_05_pm_1024.png?t=xoxe-36986702084-119441201446-118762000530-0529f55d09",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 768,
+            "image_exif_rotation": 1,
+            "original_w": 1600,
+            "original_h": 1200,
+            "permalink": "https:\/\/flippedbit.slack.com\/files\/zaccheezymac\/F345Z7K4L\/pasted_image_at_2016_11_17_02_05_pm.png",
+            "permalink_public": "https:\/\/slack-files.com\/T12V0LN2G-F345Z7K4L-0b894d5676",
+            "channels": [
+                "C12VA7G23"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U132256GZ",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "<@U132256GZ|zaccheezymac>",
+        "bot_id": null,
+        "ts": "1479413166.000154"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "thats a picture of the 2 from the show",
+        "ts": "1479413166.000155"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": "Ugly ass mufuckas",
+        "ts": "1479413182.000156"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "the girl looks downy and Atom looks like a penis",
+        "ts": "1479413187.000158"
+    },
+    {
+        "type": "message",
+        "user": "U12VAQUN4",
+        "text": "they gross",
+        "ts": "1479413223.000159"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": "As the kids say these days:",
+        "ts": "1479413246.000160"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": "\"BITCH YOU UGLY! YOU YO DADDY'S SON\"",
+        "ts": "1479413258.000161"
+    },
+    {
+        "text": "Sup brah?",
+        "type": "message",
+        "subtype": "slackbot_response",
+        "user": "USLACKBOT",
+        "ts": "1479413258.000162"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "hahahahaha!",
+        "ts": "1479413271.000163"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "just posted this to their facebook XD",
+        "ts": "1479413658.000164"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "<https:\/\/www.youtube.com\/watch?v=IoyvvEWHodk>",
+        "attachments": [
+            {
+                "service_name": "YouTube",
+                "service_url": "https:\/\/www.youtube.com\/",
+                "title": "Na Na Na Na Hey Hey-ey Goodbye",
+                "title_link": "https:\/\/www.youtube.com\/watch?v=IoyvvEWHodk",
+                "author_name": "Anil Vitali Sekhar Naik",
+                "author_link": "https:\/\/www.youtube.com\/channel\/UC1H4vNJwBmlLEQvY2cHv3BA",
+                "thumb_url": "https:\/\/i.ytimg.com\/vi\/IoyvvEWHodk\/hqdefault.jpg",
+                "thumb_width": 480,
+                "thumb_height": 360,
+                "fallback": "YouTube Video: Na Na Na Na Hey Hey-ey Goodbye",
+                "video_html": "<iframe width=\"400\" height=\"225\" src=\"https:\/\/www.youtube.com\/embed\/IoyvvEWHodk?feature=oembed&autoplay=1&iv_load_policy=3\" frameborder=\"0\" allowfullscreen><\/iframe>",
+                "video_html_width": 400,
+                "video_html_height": 225,
+                "from_url": "https:\/\/www.youtube.com\/watch?v=IoyvvEWHodk",
+                "service_icon": "https:\/\/a.slack-edge.com\/2089\/img\/unfurl_icons\/youtube.png",
+                "id": 1
+            }
+        ],
+        "ts": "1479413659.000165"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": "Savage",
+        "ts": "1479413671.000167"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "edgy af",
+        "ts": "1479413679.000168"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": ":knife:",
+        "ts": "1479413718.000169"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "102.1",
+        "ts": "1479413766.000170"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "the",
+        "ts": "1479413766.000171"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "\/giphy EDGE",
+        "bot_id": "B1319SAD6",
+        "attachments": [
+            {
+                "fallback": "giphy: <http:\/\/giphy.com\/gifs\/southparkgifs-3o6ZtcLbXtN4KEBwTm>",
+                "image_url": "https:\/\/media1.giphy.com\/media\/3o6ZtcLbXtN4KEBwTm\/giphy.gif",
+                "image_width": 480,
+                "image_height": 270,
+                "image_bytes": 149018,
+                "is_animated": true,
+                "title": "EDGE",
+                "id": 1,
+                "title_link": "http:\/\/giphy.com\/gifs\/southparkgifs-3o6ZtcLbXtN4KEBwTm"
+            }
+        ],
+        "ts": "1479413773.000172"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "EDGY",
+        "ts": "1479413785.000173"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": "\/giphy extreme edge",
+        "bot_id": "B1319SAD6",
+        "attachments": [
+            {
+                "fallback": "giphy: <http:\/\/giphy.com\/gifs\/stunt-flipping-ZASklAYUfFkVW>",
+                "image_url": "http:\/\/media4.giphy.com\/media\/ZASklAYUfFkVW\/giphy.gif",
+                "image_width": 289,
+                "image_height": 266,
+                "image_bytes": 1054597,
+                "is_animated": true,
+                "title": "extreme edge",
+                "id": 1,
+                "title_link": "http:\/\/giphy.com\/gifs\/stunt-flipping-ZASklAYUfFkVW"
+            }
+        ],
+        "ts": "1479413834.000174"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "\/giphy cutting edge",
+        "bot_id": "B1319SAD6",
+        "attachments": [
+            {
+                "fallback": "giphy: <http:\/\/giphy.com\/gifs\/pbp-FvEyenxpOXTOw>",
+                "image_url": "http:\/\/media2.giphy.com\/media\/FvEyenxpOXTOw\/giphy-tumblr.gif",
+                "image_width": 60,
+                "image_height": 54,
+                "image_bytes": 10155,
+                "is_animated": true,
+                "title": "cutting edge",
+                "id": 1,
+                "title_link": "http:\/\/giphy.com\/gifs\/pbp-FvEyenxpOXTOw"
+            }
+        ],
+        "ts": "1479413847.000175"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": "But now!",
+        "ts": "1479413850.000176"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": "\/giphy edgy eagle",
+        "bot_id": "B1319SAD6",
+        "attachments": [
+            {
+                "fallback": "giphy: <http:\/\/giphy.com\/gifs\/eagles-hIHYA7iRS3Ije>",
+                "image_url": "http:\/\/media1.giphy.com\/media\/hIHYA7iRS3Ije\/giphy.gif",
+                "image_width": 640,
+                "image_height": 384,
+                "image_bytes": 997313,
+                "is_animated": true,
+                "title": "edgy eagle",
+                "id": 1,
+                "title_link": "http:\/\/giphy.com\/gifs\/eagles-hIHYA7iRS3Ije"
+            }
+        ],
+        "ts": "1479413855.000177"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "\/giphy EAGLES EDGE",
+        "bot_id": "B1319SAD6",
+        "attachments": [
+            {
+                "fallback": "giphy: <http:\/\/giphy.com\/gifs\/eagle-desert-edge-A0N7ePWr4LSMw>",
+                "image_url": "http:\/\/media.giphy.com\/media\/A0N7ePWr4LSMw\/giphy-tumblr.gif",
+                "image_width": 250,
+                "image_height": 140,
+                "image_bytes": 814584,
+                "is_animated": true,
+                "title": "EAGLES EDGE",
+                "id": 1,
+                "title_link": "http:\/\/giphy.com\/gifs\/eagle-desert-edge-A0N7ePWr4LSMw"
+            }
+        ],
+        "ts": "1479413864.000178"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "\/giphy sexy",
+        "bot_id": "B1319SAD6",
+        "attachments": [
+            {
+                "fallback": "giphy: <http:\/\/giphy.com\/gifs\/jennifer-love-hewitt-s-DNbnBnBiErZZu>",
+                "image_url": "http:\/\/media.giphy.com\/media\/DNbnBnBiErZZu\/giphy-tumblr.gif",
+                "image_width": 163,
+                "image_height": 250,
+                "image_bytes": 1042266,
+                "is_animated": true,
+                "title": "sexy",
+                "id": 1,
+                "title_link": "http:\/\/giphy.com\/gifs\/jennifer-love-hewitt-s-DNbnBnBiErZZu"
+            }
+        ],
+        "ts": "1479413876.000180"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": "Hot damn",
+        "ts": "1479413877.000181"
+    },
+    {
+        "type": "message",
+        "user": "U1372C4NM",
+        "text": "Lol <@U132256GZ> ",
+        "ts": "1479421876.000182"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "what",
+        "ts": "1479421890.000183"
+    },
+    {
+        "type": "message",
+        "user": "U1372C4NM",
+        "text": "Your rating of the podcast",
+        "ts": "1479421900.000184"
+    },
+    {
+        "type": "message",
+        "user": "U1372C4NM",
+        "text": "We suck. ",
+        "ts": "1479421907.000185",
+        "reactions": [
+            {
+                "name": "middle_finger",
+                "users": [
+                    "U132256GZ"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": ":heart:",
+        "ts": "1479421929.000186"
+    },
+    {
+        "type": "message",
+        "user": "U1372C4NM",
+        "text": "We need to put out higher quality podcast. ",
+        "ts": "1479421987.000187"
+    },
+    {
+        "type": "message",
+        "user": "U1372C4NM",
+        "text": "You guys are welcome to join as guest, just send the page a message. ",
+        "ts": "1479422007.000188"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "Naw fam",
+        "ts": "1479422032.000189"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "you don\u2019t need me",
+        "ts": "1479422040.000190"
+    },
+    {
+        "type": "message",
+        "user": "U1372C4NM",
+        "text": "ok",
+        "ts": "1479422074.000191"
+    },
+    {
+        "type": "message",
+        "user": "U1372C4NM",
+        "text": "I actually did talk do easy about adding you guys on as official peeps. Like t-shirts and stuff, but I wanted it to be a surprise. ",
+        "ts": "1479422162.000192"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "<@U1372C4NM> man you da best",
+        "ts": "1479422347.000193"
+    },
+    {
+        "type": "message",
+        "user": "U1372C4NM",
+        "text": "Sometimes. ",
+        "ts": "1479422355.000194"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "All I needed was a friend and a slim jim to get by",
+        "ts": "1479422365.000195"
+    },
+    {
+        "type": "message",
+        "user": "U1372C4NM",
+        "text": "Ew slim jim",
+        "ts": "1479422372.000196"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "thanks man",
+        "ts": "1479422378.000197"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "\/giphy destroyed",
+        "bot_id": "B1319SAD6",
+        "attachments": [
+            {
+                "fallback": "giphy: <http:\/\/giphy.com\/gifs\/southparkgifs-26uf2jCPeQoQynjZ6>",
+                "image_url": "https:\/\/media0.giphy.com\/media\/26uf2jCPeQoQynjZ6\/giphy.gif",
+                "image_width": 384,
+                "image_height": 270,
+                "image_bytes": 1243701,
+                "is_animated": true,
+                "title": "destroyed",
+                "id": 1,
+                "title_link": "http:\/\/giphy.com\/gifs\/southparkgifs-26uf2jCPeQoQynjZ6"
+            }
+        ],
+        "ts": "1479422426.000198"
+    },
+    {
+        "type": "message",
+        "user": "U1372C4NM",
+        "text": "Heads up to you guys as well. We haven't announced it yet either. \n\nIn January, we're gonna be having a smash bros tournament. ",
+        "ts": "1479422427.000199"
+    },
+    {
+        "type": "message",
+        "user": "U1372C4NM",
+        "text": "Last time I had a slim jim, half of it fell out the bottom of the pack. ",
+        "ts": "1479422460.000200"
+    },
+    {
+        "type": "message",
+        "user": "U1372C4NM",
+        "text": "<https:\/\/youtu.be\/1BaQCLoCQeI>",
+        "attachments": [
+            {
+                "service_name": "YouTube",
+                "service_url": "https:\/\/www.youtube.com\/",
+                "title": "HEY nvm",
+                "title_link": "https:\/\/youtu.be\/1BaQCLoCQeI",
+                "author_name": "Infinite Dungeons",
+                "author_link": "https:\/\/www.youtube.com\/channel\/UCeA9r-9_nBYvqTZiIAKmdqg",
+                "thumb_url": "https:\/\/i.ytimg.com\/vi\/1BaQCLoCQeI\/hqdefault.jpg",
+                "thumb_width": 480,
+                "thumb_height": 360,
+                "fallback": "YouTube Video: HEY nvm",
+                "video_html": "<iframe width=\"400\" height=\"225\" src=\"https:\/\/www.youtube.com\/embed\/1BaQCLoCQeI?feature=oembed&autoplay=1&iv_load_policy=3\" frameborder=\"0\" allowfullscreen><\/iframe>",
+                "video_html_width": 400,
+                "video_html_height": 225,
+                "from_url": "https:\/\/youtu.be\/1BaQCLoCQeI",
+                "service_icon": "https:\/\/a.slack-edge.com\/2089\/img\/unfurl_icons\/youtube.png",
+                "id": 1
+            }
+        ],
+        "ts": "1479422511.000201"
+    },
+    {
+        "type": "message",
+        "user": "U12VAQUN4",
+        "text": "Omg smash brosss",
+        "ts": "1479422529.000203"
+    },
+    {
+        "type": "message",
+        "user": "U12VAQUN4",
+        "text": "Which one",
+        "ts": "1479422531.000204"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "<@U1372C4NM> why we not close no more",
+        "ts": "1479422535.000205"
+    },
+    {
+        "type": "message",
+        "user": "U1372C4NM",
+        "text": "All of them. ",
+        "ts": "1479422546.000206"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "why dont you love me like the other boys do",
+        "ts": "1479422550.000207"
+    },
+    {
+        "type": "message",
+        "user": "U12VAQUN4",
+        "text": "Melee &gt; all",
+        "ts": "1479422565.000208"
+    },
+    {
+        "type": "message",
+        "user": "U12VAQUN4",
+        "text": "Also lmao i just heard someone say \"I'd be offended if someone didn't assume my gender\"",
+        "ts": "1479422592.000209"
+    },
+    {
+        "type": "message",
+        "user": "U12VAQUN4",
+        "text": "XD",
+        "ts": "1479422595.000210"
+    },
+    {
+        "type": "message",
+        "user": "U1372C4NM",
+        "text": "We are <@U132256GZ> , I'm just busy with alot of stuff. I don't really go out anymoh either. Sorry man. ",
+        "ts": "1479422603.000211"
+    },
+    {
+        "type": "message",
+        "user": "U1372C4NM",
+        "text": "You know I love you brother. ",
+        "ts": "1479422626.000212"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "Hope you're doing well man wish I coulda seent ya last night",
+        "ts": "1479422653.000213"
+    },
+    {
+        "type": "message",
+        "user": "U1372C4NM",
+        "text": "Same af. I'm alright, just getting that insomnia back again. ",
+        "ts": "1479422801.000214"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "know that feeling all too well",
+        "ts": "1479422829.000215"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "you taking meletonin",
+        "ts": "1479422842.000216"
+    },
+    {
+        "type": "message",
+        "user": "U1308KFJ4",
+        "text": "I have 2 Game cubes if we do melee ",
+        "ts": "1479422853.000217"
+    },
+    {
+        "type": "message",
+        "user": "U1308KFJ4",
+        "text": "Actually I think I may have 3",
+        "ts": "1479422864.000218"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "omg",
+        "ts": "1479422870.000219"
+    },
+    {
+        "type": "message",
+        "user": "U1308KFJ4",
+        "text": "I have maybe 7 controllers",
+        "ts": "1479422898.000220"
+    },
+    {
+        "type": "message",
+        "user": "U1372C4NM",
+        "text": "I need to go get more hydroxizine honestly. ",
+        "ts": "1479423094.000221"
+    },
+    {
+        "type": "message",
+        "user": "U1372C4NM",
+        "text": "Wait, why do you have 2 gamecubes? ",
+        "ts": "1479423106.000222"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "dude I am gonna go try to get some more stuff too :disappointed:",
+        "ts": "1479423114.000223"
+    },
+    {
+        "type": "message",
+        "user": "U1372C4NM",
+        "text": "GameTesseract",
+        "ts": "1479423122.000224"
+    },
+    {
+        "type": "message",
+        "user": "U1308KFJ4",
+        "text": "Yeah 2 in Denton 1 in austin ",
+        "ts": "1479423125.000225"
+    },
+    {
+        "type": "message",
+        "user": "U1372C4NM",
+        "text": "Meds suck. ",
+        "ts": "1479423129.000226"
+    },
+    {
+        "type": "message",
+        "user": "U1372C4NM",
+        "text": "Wtf scott loool",
+        "ts": "1479423133.000227"
+    },
+    {
+        "type": "message",
+        "user": "U1308KFJ4",
+        "text": "Because man it's the game cube!!!!",
+        "ts": "1479423153.000228"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "you can make a game pyramid",
+        "ts": "1479423167.000229"
+    },
+    {
+        "type": "message",
+        "user": "U1308KFJ4",
+        "text": ":joy: ",
+        "ts": "1479423177.000230"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "omg",
+        "ts": "1479423459.000231"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "the game^3",
+        "ts": "1479423469.000232"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "game cubed",
+        "ts": "1479423477.000233"
+    },
+    {
+        "type": "message",
+        "user": "U1372C4NM",
+        "text": "Hahaahahahah",
+        "ts": "1479423481.000234"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "\/giphy my god",
+        "bot_id": "B1319SAD6",
+        "attachments": [
+            {
+                "fallback": "giphy: <http:\/\/giphy.com\/gifs\/aishwarya-rai-asian-women-asianwomen-l46C8Nl1uHLkppB3G>",
+                "image_url": "http:\/\/media4.giphy.com\/media\/l46C8Nl1uHLkppB3G\/giphy.gif",
+                "image_width": 480,
+                "image_height": 266,
+                "image_bytes": 767323,
+                "is_animated": true,
+                "title": "my god",
+                "id": 1,
+                "title_link": "http:\/\/giphy.com\/gifs\/aishwarya-rai-asian-women-asianwomen-l46C8Nl1uHLkppB3G"
+            }
+        ],
+        "ts": "1479423493.000235"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "how did I not realize it before",
+        "ts": "1479423506.000236"
+    },
+    {
+        "type": "message",
+        "user": "U1372C4NM",
+        "text": "<https:\/\/youtu.be\/D4Cf5HZigBY>",
+        "attachments": [
+            {
+                "service_name": "YouTube",
+                "service_url": "https:\/\/www.youtube.com\/",
+                "title": "LAUNDRY",
+                "title_link": "https:\/\/youtu.be\/D4Cf5HZigBY",
+                "author_name": "Infinite Dungeons",
+                "author_link": "https:\/\/www.youtube.com\/channel\/UCeA9r-9_nBYvqTZiIAKmdqg",
+                "thumb_url": "https:\/\/i.ytimg.com\/vi\/D4Cf5HZigBY\/hqdefault.jpg",
+                "thumb_width": 480,
+                "thumb_height": 360,
+                "fallback": "YouTube Video: LAUNDRY",
+                "video_html": "<iframe width=\"400\" height=\"300\" src=\"https:\/\/www.youtube.com\/embed\/D4Cf5HZigBY?feature=oembed&autoplay=1&iv_load_policy=3\" frameborder=\"0\" allowfullscreen><\/iframe>",
+                "video_html_width": 400,
+                "video_html_height": 300,
+                "from_url": "https:\/\/youtu.be\/D4Cf5HZigBY",
+                "service_icon": "https:\/\/a.slack-edge.com\/2089\/img\/unfurl_icons\/youtube.png",
+                "id": 1
+            }
+        ],
+        "ts": "1479423543.000237",
+        "reactions": [
+            {
+                "name": "disappointed",
+                "users": [
+                    "U132256GZ"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U1372C4NM",
+        "text": "Sometimes things just.....CLINK",
+        "ts": "1479423557.000239"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": "I too have a cube!",
+        "ts": "1479423557.000240"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": "Also I :heart: you guys!",
+        "ts": "1479423568.000241",
+        "reactions": [
+            {
+                "name": "heart",
+                "users": [
+                    "U132256GZ"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": "Just got home but sitting in my car so I can hear the 102.1 transition ",
+        "ts": "1479423593.000242"
+    },
+    {
+        "type": "message",
+        "user": "U1372C4NM",
+        "text": "I saw Zac's post earlier and I was laughing my ass off on the way to work. ",
+        "ts": "1479423628.000243"
+    },
+    {
+        "text": "Don't believe his lies",
+        "type": "message",
+        "subtype": "slackbot_response",
+        "user": "USLACKBOT",
+        "ts": "1479423629.000244"
+    },
+    {
+        "type": "message",
+        "user": "U1372C4NM",
+        "text": "I just pictured Zac going \"FUUUUUCCCCK YEAAAAAAAAAAA~\" speeding down the highway. XD",
+        "ts": "1479423666.000245"
+    },
+    {
+        "text": "Our glorious leader",
+        "type": "message",
+        "subtype": "slackbot_response",
+        "user": "USLACKBOT",
+        "ts": "1479423666.000246"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "What post",
+        "ts": "1479423799.000247"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": "DUDE WTF ITS CHRISTMAS MUSIC",
+        "ts": "1479423817.000248"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": "NOT EVEN JOKING ",
+        "ts": "1479423823.000249"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": "WHAT",
+        "ts": "1479423826.000250"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": "THE ",
+        "ts": "1479423828.000251"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": "FUCK",
+        "ts": "1479423830.000252"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": ":I",
+        "ts": "1479423884.000253"
+    },
+    {
+        "type": "message",
+        "user": "U1372C4NM",
+        "text": "The no more atom smasher post",
+        "ts": "1479423963.000254"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "dude",
+        "ts": "1479423970.000255"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "its so great",
+        "ts": "1479423973.000256"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "I\u2019m waiting for death threats to roll in",
+        "ts": "1479423993.000257"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "<@U12V0LN6Q> IS THAT WHAT 102.1 BECAME???",
+        "ts": "1479424158.000258"
+    },
+    {
+        "type": "message",
+        "user": "U1308KFJ4",
+        "text": "<@U132256GZ>: you got you wish for Christmas music ",
+        "ts": "1479424251.000259"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "I KNOW :DDDDDDDDDDDD",
+        "ts": "1479424265.000260"
+    },
+    {
+        "type": "message",
+        "user": "U1372C4NM",
+        "text": "We should all get HAM radios and just tune into each others stations. We can have weekly PSAs on dem airwaves",
+        "ts": "1479424410.000261"
+    },
+    {
+        "text": "No",
+        "type": "message",
+        "subtype": "slackbot_response",
+        "user": "USLACKBOT",
+        "ts": "1479424410.000262"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "I\u2019ma play vape wave on mine",
+        "ts": "1479424432.000263"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "vape ham",
+        "ts": "1479424436.000264"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "mmmm",
+        "ts": "1479424437.000265"
+    },
+    {
+        "type": "message",
+        "user": "U1372C4NM",
+        "text": "Hahaa",
+        "ts": "1479424443.000266"
+    },
+    {
+        "type": "message",
+        "user": "U1372C4NM",
+        "text": "Ham flavored vape",
+        "ts": "1479424448.000267"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": "<@U132256GZ>: YES",
+        "ts": "1479426599.000268"
+    },
+    {
+        "type": "message",
+        "user": "U1372C4NM",
+        "text": "You know whats hard?",
+        "ts": "1479426669.000269"
+    },
+    {
+        "type": "message",
+        "user": "U1372C4NM",
+        "text": "Decrypting an RSA key in C, with openssl libraries. ",
+        "ts": "1479426780.000270"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": "You got dis Bobby!",
+        "ts": "1479427063.000271"
+    },
+    {
+        "username": "IFTTT",
+        "icons": {
+            "image_36": "https:\/\/a.slack-edge.com\/8f51\/img\/services\/ifttt_36.png",
+            "image_48": "https:\/\/a.slack-edge.com\/8f51\/img\/services\/ifttt_48.png",
+            "image_72": "https:\/\/a.slack-edge.com\/8f51\/img\/services\/ifttt_72.png"
+        },
+        "attachments": [
+            {
+                "title": "November 18 2016 Weather Report",
+                "title_link": "https:\/\/www.wunderground.com\/cgi-bin\/findweather\/getForecast?query=33.21656,-97.130981&par=ifttt&cm_ven=ifttt",
+                "thumb_url": "https:\/\/ifttt.com\/images\/weather\/sunny.png",
+                "thumb_width": 310,
+                "thumb_height": 310,
+                "text": "Sunny tomorrow! With a high of 17C (62F) and a low of 3C (38F).",
+                "fallback": "Sunny tomorrow! With a high of 17C (62F) and a low of 3C (38F).",
+                "mrkdwn_in": [
+                    "text",
+                    "pretext"
+                ]
+            }
+        ],
+        "mrkdwn": true,
+        "text": null,
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1479427251.000272"
+    },
+    {
+        "type": "message",
+        "user": "U1372C4NM",
+        "text": "GOT IT. ",
+        "ts": "1479427835.000273"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": "BOI HE DID IT ",
+        "ts": "1479428058.000274"
+    },
+    {
+        "type": "message",
+        "user": "U12VAQUN4",
+        "text": "Dude YES on ham radios. I actually literally decided to learn morse code yesterday",
+        "edited": {
+            "user": "U12VAQUN4",
+            "ts": "1479431014.000000"
+        },
+        "ts": "1479431007.000275"
+    },
+    {
+        "type": "message",
+        "user": "U1308KFJ4",
+        "text": "Anyone going out tonight? I think Jacob is going to come up to Denton. ",
+        "ts": "1479431125.000277"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": "Not tonight. Maybe tomorrow after I get paid ",
+        "ts": "1479431151.000278"
+    },
+    {
+        "type": "message",
+        "user": "U12VAQUN4",
+        "text": "I gotsta homework tonight):",
+        "ts": "1479431241.000279"
+    },
+    {
+        "type": "message",
+        "user": "U1308KFJ4",
+        "text": ":white_frowning_face::white_frowning_face:I'm in Austin tomorrow ",
+        "ts": "1479431287.000280"
+    },
+    {
+        "type": "message",
+        "user": "U1372C4NM",
+        "text": "I'm on the same hw grind. This lab is due tomorrow.",
+        "ts": "1479431563.000281"
+    },
+    {
+        "type": "message",
+        "user": "U1372C4NM",
+        "text": "Its ok though scott, you can leave Jacob here tomorrow ",
+        "ts": "1479431602.000282"
+    },
+    {
+        "type": "message",
+        "user": "U1308KFJ4",
+        "text": ":white_frowning_face:",
+        "ts": "1479431659.000283"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U132256GZ|zaccheezymac> uploaded a file: <https:\/\/flippedbit.slack.com\/files\/zaccheezymac\/F34TQ8206\/img_20161117_192152.jpg|At a thing atm>",
+        "file": {
+            "id": "F34TQ8206",
+            "created": 1479433904,
+            "timestamp": 1479433904,
+            "name": "IMG_20161117_192152.jpg",
+            "title": "At a thing atm",
+            "mimetype": "image\/jpeg",
+            "filetype": "jpg",
+            "pretty_type": "JPEG",
+            "user": "U132256GZ",
+            "editable": false,
+            "size": 3014664,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T12V0LN2G-F34TQ8206\/img_20161117_192152.jpg?t=xoxe-36986702084-119441201446-118762000530-0529f55d09",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T12V0LN2G-F34TQ8206\/download\/img_20161117_192152.jpg?t=xoxe-36986702084-119441201446-118762000530-0529f55d09",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T12V0LN2G-F34TQ8206-cc3d3d34e1\/img_20161117_192152_64.jpg?t=xoxe-36986702084-119441201446-118762000530-0529f55d09",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T12V0LN2G-F34TQ8206-cc3d3d34e1\/img_20161117_192152_80.jpg?t=xoxe-36986702084-119441201446-118762000530-0529f55d09",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T12V0LN2G-F34TQ8206-cc3d3d34e1\/img_20161117_192152_360.jpg?t=xoxe-36986702084-119441201446-118762000530-0529f55d09",
+            "thumb_360_w": 270,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T12V0LN2G-F34TQ8206-cc3d3d34e1\/img_20161117_192152_480.jpg?t=xoxe-36986702084-119441201446-118762000530-0529f55d09",
+            "thumb_480_w": 360,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T12V0LN2G-F34TQ8206-cc3d3d34e1\/img_20161117_192152_160.jpg?t=xoxe-36986702084-119441201446-118762000530-0529f55d09",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T12V0LN2G-F34TQ8206-cc3d3d34e1\/img_20161117_192152_720.jpg?t=xoxe-36986702084-119441201446-118762000530-0529f55d09",
+            "thumb_720_w": 540,
+            "thumb_720_h": 720,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T12V0LN2G-F34TQ8206-cc3d3d34e1\/img_20161117_192152_960.jpg?t=xoxe-36986702084-119441201446-118762000530-0529f55d09",
+            "thumb_960_w": 720,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T12V0LN2G-F34TQ8206-cc3d3d34e1\/img_20161117_192152_1024.jpg?t=xoxe-36986702084-119441201446-118762000530-0529f55d09",
+            "thumb_1024_w": 768,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 4032,
+            "original_h": 3024,
+            "permalink": "https:\/\/flippedbit.slack.com\/files\/zaccheezymac\/F34TQ8206\/img_20161117_192152.jpg",
+            "permalink_public": "https:\/\/slack-files.com\/T12V0LN2G-F34TQ8206-901e733e86",
+            "channels": [
+                "C12VA7G23"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U132256GZ",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "<@U132256GZ|zaccheezymac>",
+        "bot_id": null,
+        "ts": "1479433911.000284"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U132256GZ|zaccheezymac> uploaded a file: <https:\/\/flippedbit.slack.com\/files\/zaccheezymac\/F34A3PKD2\/img_20161117_195150.jpg|Adulting I think :neutral_face:>",
+        "file": {
+            "id": "F34A3PKD2",
+            "created": 1479433953,
+            "timestamp": 1479433953,
+            "name": "IMG_20161117_195150.jpg",
+            "title": "Adulting I think :neutral_face:",
+            "mimetype": "image\/jpeg",
+            "filetype": "jpg",
+            "pretty_type": "JPEG",
+            "user": "U132256GZ",
+            "editable": false,
+            "size": 3378507,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T12V0LN2G-F34A3PKD2\/img_20161117_195150.jpg?t=xoxe-36986702084-119441201446-118762000530-0529f55d09",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T12V0LN2G-F34A3PKD2\/download\/img_20161117_195150.jpg?t=xoxe-36986702084-119441201446-118762000530-0529f55d09",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T12V0LN2G-F34A3PKD2-4ddb64f9c0\/img_20161117_195150_64.jpg?t=xoxe-36986702084-119441201446-118762000530-0529f55d09",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T12V0LN2G-F34A3PKD2-4ddb64f9c0\/img_20161117_195150_80.jpg?t=xoxe-36986702084-119441201446-118762000530-0529f55d09",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T12V0LN2G-F34A3PKD2-4ddb64f9c0\/img_20161117_195150_360.jpg?t=xoxe-36986702084-119441201446-118762000530-0529f55d09",
+            "thumb_360_w": 360,
+            "thumb_360_h": 270,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T12V0LN2G-F34A3PKD2-4ddb64f9c0\/img_20161117_195150_480.jpg?t=xoxe-36986702084-119441201446-118762000530-0529f55d09",
+            "thumb_480_w": 480,
+            "thumb_480_h": 360,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T12V0LN2G-F34A3PKD2-4ddb64f9c0\/img_20161117_195150_160.jpg?t=xoxe-36986702084-119441201446-118762000530-0529f55d09",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T12V0LN2G-F34A3PKD2-4ddb64f9c0\/img_20161117_195150_720.jpg?t=xoxe-36986702084-119441201446-118762000530-0529f55d09",
+            "thumb_720_w": 720,
+            "thumb_720_h": 540,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T12V0LN2G-F34A3PKD2-4ddb64f9c0\/img_20161117_195150_960.jpg?t=xoxe-36986702084-119441201446-118762000530-0529f55d09",
+            "thumb_960_w": 960,
+            "thumb_960_h": 720,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T12V0LN2G-F34A3PKD2-4ddb64f9c0\/img_20161117_195150_1024.jpg?t=xoxe-36986702084-119441201446-118762000530-0529f55d09",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 768,
+            "image_exif_rotation": 1,
+            "original_w": 4032,
+            "original_h": 3024,
+            "permalink": "https:\/\/flippedbit.slack.com\/files\/zaccheezymac\/F34A3PKD2\/img_20161117_195150.jpg",
+            "permalink_public": "https:\/\/slack-files.com\/T12V0LN2G-F34A3PKD2-84b477a494",
+            "channels": [
+                "C12VA7G23"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U132256GZ",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "<@U132256GZ|zaccheezymac>",
+        "bot_id": null,
+        "ts": "1479433959.000285"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": "Notice!",
+        "ts": "1479433994.000286"
+    },
+    {
+        "type": "message",
+        "user": "U12VAQUN4",
+        "text": "Cool!!",
+        "ts": "1479433998.000287"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": "Noice**",
+        "ts": "1479434000.000288"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "Too drunk to tell how I'm doing y3t",
+        "ts": "1479435318.000289"
+    },
+    {
+        "type": "message",
+        "user": "U12VAQUN4",
+        "text": ":100::100:",
+        "ts": "1479435895.000290"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "There is a auction going on and everyone is betting 1000 for wine. I'm not drunk, everyone is fucking high",
+        "ts": "1479435977.000291"
+    },
+    {
+        "type": "message",
+        "user": "U12VAQUN4",
+        "text": "Dafuqqq. Is it unicorn wine?",
+        "ts": "1479436265.000292"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": "Das messed up ",
+        "ts": "1479436480.000293"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "Dude I don't know, it's a lot of really rich people here and I can't make conversation....",
+        "ts": "1479436568.000294"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "I'm too poor to relate :expressionless:",
+        "ts": "1479436577.000295"
+    },
+    {
+        "type": "message",
+        "user": "U1372C4NM",
+        "text": "Sounds like you need us to come crash this party. ",
+        "ts": "1479436610.000296"
+    },
+    {
+        "type": "message",
+        "user": "U12VAQUN4",
+        "text": ":tophat: fake it til you make itttt",
+        "ts": "1479436624.000297"
+    },
+    {
+        "type": "message",
+        "user": "U1372C4NM",
+        "text": "I'm sorry you're having a bad time man. :(",
+        "ts": "1479436676.000298"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "You know what I am having a good time",
+        "ts": "1479437645.000299"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "I'm so spoiled by these guys",
+        "ts": "1479437657.000300"
+    },
+    {
+        "type": "message",
+        "user": "U1372C4NM",
+        "text": "Well I retract my statement haha! ",
+        "ts": "1479437677.000301"
+    },
+    {
+        "type": "message",
+        "user": "U1372C4NM",
+        "text": "Go have some fun dude! And get home safe",
+        "ts": "1479437689.000302"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U132256GZ|zaccheezymac> uploaded a file: <https:\/\/flippedbit.slack.com\/files\/zaccheezymac\/F34AWFS9K\/img_20161117_205428.jpg|Skyline shot>",
+        "file": {
+            "id": "F34AWFS9K",
+            "created": 1479437708,
+            "timestamp": 1479437708,
+            "name": "IMG_20161117_205428.jpg",
+            "title": "Skyline shot",
+            "mimetype": "image\/jpeg",
+            "filetype": "jpg",
+            "pretty_type": "JPEG",
+            "user": "U132256GZ",
+            "editable": false,
+            "size": 2188160,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T12V0LN2G-F34AWFS9K\/img_20161117_205428.jpg?t=xoxe-36986702084-119441201446-118762000530-0529f55d09",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T12V0LN2G-F34AWFS9K\/download\/img_20161117_205428.jpg?t=xoxe-36986702084-119441201446-118762000530-0529f55d09",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T12V0LN2G-F34AWFS9K-df5136e5d3\/img_20161117_205428_64.jpg?t=xoxe-36986702084-119441201446-118762000530-0529f55d09",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T12V0LN2G-F34AWFS9K-df5136e5d3\/img_20161117_205428_80.jpg?t=xoxe-36986702084-119441201446-118762000530-0529f55d09",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T12V0LN2G-F34AWFS9K-df5136e5d3\/img_20161117_205428_360.jpg?t=xoxe-36986702084-119441201446-118762000530-0529f55d09",
+            "thumb_360_w": 270,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T12V0LN2G-F34AWFS9K-df5136e5d3\/img_20161117_205428_480.jpg?t=xoxe-36986702084-119441201446-118762000530-0529f55d09",
+            "thumb_480_w": 360,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T12V0LN2G-F34AWFS9K-df5136e5d3\/img_20161117_205428_160.jpg?t=xoxe-36986702084-119441201446-118762000530-0529f55d09",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T12V0LN2G-F34AWFS9K-df5136e5d3\/img_20161117_205428_720.jpg?t=xoxe-36986702084-119441201446-118762000530-0529f55d09",
+            "thumb_720_w": 540,
+            "thumb_720_h": 720,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T12V0LN2G-F34AWFS9K-df5136e5d3\/img_20161117_205428_960.jpg?t=xoxe-36986702084-119441201446-118762000530-0529f55d09",
+            "thumb_960_w": 720,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T12V0LN2G-F34AWFS9K-df5136e5d3\/img_20161117_205428_1024.jpg?t=xoxe-36986702084-119441201446-118762000530-0529f55d09",
+            "thumb_1024_w": 768,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 2592,
+            "original_h": 1944,
+            "permalink": "https:\/\/flippedbit.slack.com\/files\/zaccheezymac\/F34AWFS9K\/img_20161117_205428.jpg",
+            "permalink_public": "https:\/\/slack-files.com\/T12V0LN2G-F34AWFS9K-1fc29bfc1b",
+            "channels": [
+                "C12VA7G23"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U132256GZ",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "<@U132256GZ|zaccheezymac>",
+        "bot_id": null,
+        "ts": "1479437714.000303"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": "That's awesome man!",
+        "ts": "1479437772.000304"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "You know this is part of the reason why I work here",
+        "ts": "1479437797.000305"
+    },
+    {
+        "type": "message",
+        "user": "U132256GZ",
+        "text": "Even if my job isn't writing code all the time  I am still so grateful for what I have here",
+        "ts": "1479437836.000306"
+    },
+    {
+        "type": "message",
+        "user": "U12VAQUN4",
+        "text": ":slightly_smiling_face:",
+        "ts": "1479437910.000307"
+    },
+    {
+        "type": "message",
+        "user": "U12V0LN6Q",
+        "text": "Proud of you brother man!",
+        "ts": "1479437942.000308"
+    },
+    {
+        "type": "message",
+        "user": "U1308KFJ4",
+        "text": "Bad ass you look like Jane bond ",
+        "ts": "1479444837.000309"
+    }
+]

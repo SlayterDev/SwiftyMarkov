@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		027186521E06E0EF008A8B4E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027186511E06E0EF008A8B4E /* main.swift */; };
+		027186591E06E1BE008A8B4E /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027186581E06E1BE008A8B4E /* StringExtensions.swift */; };
+		0271865B1E06E529008A8B4E /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0271865A1E06E529008A8B4E /* ArrayExtensions.swift */; };
+		0271865D1E06F7DE008A8B4E /* MarkovGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0271865C1E06F7DE008A8B4E /* MarkovGenerator.swift */; };
+		027186601E06FC89008A8B4E /* moby.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0271865E1E06FA7E008A8B4E /* moby.txt */; };
+		027186621E084347008A8B4E /* treasure.txt in Resources */ = {isa = PBXBuildFile; fileRef = 027186611E084347008A8B4E /* treasure.txt */; };
+		027186641E08447E008A8B4E /* christmas.txt in Resources */ = {isa = PBXBuildFile; fileRef = 027186631E08447E008A8B4E /* christmas.txt */; };
+		027186661E0847A5008A8B4E /* donald.txt in Resources */ = {isa = PBXBuildFile; fileRef = 027186651E0847A5008A8B4E /* donald.txt */; };
+		027186681E087E71008A8B4E /* 2016-11-17.json in Resources */ = {isa = PBXBuildFile; fileRef = 027186671E087E71008A8B4E /* 2016-11-17.json */; };
+		0271866A1E088046008A8B4E /* slack.txt in Resources */ = {isa = PBXBuildFile; fileRef = 027186691E088046008A8B4E /* slack.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +34,15 @@
 /* Begin PBXFileReference section */
 		0271864E1E06E0EF008A8B4E /* SwiftyMarkov */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftyMarkov; sourceTree = BUILT_PRODUCTS_DIR; };
 		027186511E06E0EF008A8B4E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		027186581E06E1BE008A8B4E /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		0271865A1E06E529008A8B4E /* ArrayExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
+		0271865C1E06F7DE008A8B4E /* MarkovGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkovGenerator.swift; sourceTree = "<group>"; };
+		0271865E1E06FA7E008A8B4E /* moby.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = moby.txt; sourceTree = "<group>"; };
+		027186611E084347008A8B4E /* treasure.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = treasure.txt; sourceTree = "<group>"; };
+		027186631E08447E008A8B4E /* christmas.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = christmas.txt; sourceTree = "<group>"; };
+		027186651E0847A5008A8B4E /* donald.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = donald.txt; sourceTree = "<group>"; };
+		027186671E087E71008A8B4E /* 2016-11-17.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2016-11-17.json"; sourceTree = "<group>"; };
+		027186691E088046008A8B4E /* slack.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = slack.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +75,16 @@
 		027186501E06E0EF008A8B4E /* SwiftyMarkov */ = {
 			isa = PBXGroup;
 			children = (
+				0271865E1E06FA7E008A8B4E /* moby.txt */,
+				027186611E084347008A8B4E /* treasure.txt */,
+				027186671E087E71008A8B4E /* 2016-11-17.json */,
+				027186631E08447E008A8B4E /* christmas.txt */,
+				027186651E0847A5008A8B4E /* donald.txt */,
+				027186691E088046008A8B4E /* slack.txt */,
 				027186511E06E0EF008A8B4E /* main.swift */,
+				027186581E06E1BE008A8B4E /* StringExtensions.swift */,
+				0271865A1E06E529008A8B4E /* ArrayExtensions.swift */,
+				0271865C1E06F7DE008A8B4E /* MarkovGenerator.swift */,
 			);
 			path = SwiftyMarkov;
 			sourceTree = "<group>";
@@ -69,6 +96,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 027186551E06E0EF008A8B4E /* Build configuration list for PBXNativeTarget "SwiftyMarkov" */;
 			buildPhases = (
+				0271865F1E06FC84008A8B4E /* Resources */,
 				0271864A1E06E0EF008A8B4E /* Sources */,
 				0271864B1E06E0EF008A8B4E /* Frameworks */,
 				0271864C1E06E0EF008A8B4E /* CopyFiles */,
@@ -116,12 +144,31 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		0271865F1E06FC84008A8B4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				027186661E0847A5008A8B4E /* donald.txt in Resources */,
+				0271866A1E088046008A8B4E /* slack.txt in Resources */,
+				027186681E087E71008A8B4E /* 2016-11-17.json in Resources */,
+				027186601E06FC89008A8B4E /* moby.txt in Resources */,
+				027186621E084347008A8B4E /* treasure.txt in Resources */,
+				027186641E08447E008A8B4E /* christmas.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0271864A1E06E0EF008A8B4E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				027186591E06E1BE008A8B4E /* StringExtensions.swift in Sources */,
+				0271865B1E06E529008A8B4E /* ArrayExtensions.swift in Sources */,
 				027186521E06E0EF008A8B4E /* main.swift in Sources */,
+				0271865D1E06F7DE008A8B4E /* MarkovGenerator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
