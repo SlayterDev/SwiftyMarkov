@@ -14,18 +14,31 @@ class MarkovGenerator: NSObject {
 	
 	var capitalGrams: [(key: String, value: [String])]?
 	
+	
+	/// Initialize a new `MarkovGenerator` object with the specified order.
+	///
+	/// - parameter order: The number of characters that will be considered at a time.
+	///
+	/// - returns: A new `MarkovGenerator` object
 	init(order: Int) {
 		super.init()
 		
 		self.order = order
 	}
 	
+	
+	/// Loop over the text and add all ngrams and the following character to the `grams` table.
+	///
+	/// - parameter text: The text to be analyzed.
 	func analyzeNgrams(text: String) {
+		// Convert the String to an array of unicode scalars because Swift's native string indexing
+		// methods are shit when it comes to dealing with large amounts of text.
 		let utfText = Array(text.unicodeScalars)
 		
 		guard utfText.count > order else { return }
 		
 		for i in 0..<utfText.count - order {
+			// Grab the gram of the specified length and convert it back to a Swift String
 			let gram = utfText[i..<i+order].map { String($0) }.joined(separator: "")
 			
 			if grams[gram] == nil {
@@ -38,7 +51,13 @@ class MarkovGenerator: NSObject {
 		}
 	}
 	
-	func getCapitalGram() -> String? {
+	
+	/// Find all ngrams starting with a capital letter and return a random choice. If new text is added
+	/// to the grams tabel after generating text, `capitalGrams` should be set to `nil` to rebuild the
+	/// capital table.
+	///
+	/// - returns: A `String` containing a random ngram starting with a captial letter or `nil`.
+	private func getCapitalGram() -> String? {
 		if capitalGrams == nil {
 			capitalGrams = grams.filter { $0.key.characters.first!.isUppercase }
 		}
@@ -48,6 +67,16 @@ class MarkovGenerator: NSObject {
 		return capitalGrams?.randomChoice().key
 	}
 	
+	
+	/// Generate a piece of text based on the `grams` table and the specified order.
+	///
+	/// - parameter length:           Max length of text to be generated.
+	/// - parameter tryForSentence:   Set to `true` if you want the function to try and make a
+	///                               complete sentence. It will return when a period is met.
+	/// - parameter startWithCapital: Defaults to `true`. Determines if the generated text should
+	///                               start with a capital letter.
+	///
+	/// - returns: A `String` of the generated text.
 	func generateText(length: Int, tryForSentence: Bool, startWithCapital: Bool = true) -> String {
 		var currentGram: String?
 		
