@@ -1,10 +1,14 @@
 #!/usr/bin/python
 
+import sys
 import json
 
-filename = raw_input("Enter input file> ")
+if len(sys.argv) != 2:
+	print "Usage: " + sys.argv[0] + " <filename>"
+	print "File should be json format"
+	exit(1)
 
-with open(filename) as f:
+with open(sys.argv[1]) as f:
 	jsonString = f.read()
 	f.close()
 
@@ -15,6 +19,6 @@ for entry in parsed_json:
 		texts.append(entry['text'])
 
 full_text = '\n'.join(texts)
-file = open('slack.txt', 'w')
+file = open('slack.txt', 'a')
 file.write(full_text.encode("UTF-8"))
 file.close()
