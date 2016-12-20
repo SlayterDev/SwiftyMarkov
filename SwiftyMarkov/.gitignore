@@ -65,4 +65,4 @@ fastlane/screenshots
 fastlane/test_output
 
 *.json
-
+slack.txt
