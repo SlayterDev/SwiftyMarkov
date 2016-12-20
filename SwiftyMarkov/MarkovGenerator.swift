@@ -13,8 +13,7 @@ class MarkovGenerator: NSObject {
 	var grams = [String:[String]]()
 	
 	var capitalGrams: [(key: String, value: [String])]?
-	
-	
+
 	/// Initialize a new `MarkovGenerator` object with the specified order.
 	///
 	/// - parameter order: The number of characters that will be considered at a time.
@@ -25,7 +24,6 @@ class MarkovGenerator: NSObject {
 		
 		self.order = order
 	}
-	
 	
 	/// Loop over the text and add all ngrams and the following character to the `grams` table.
 	///
@@ -47,10 +45,9 @@ class MarkovGenerator: NSObject {
 			}
 			
 			// Add next char after gram to the table
-			grams[gram]?.append(String(describing: utfText[i + order]))
+			grams[gram]?.append(String(utfText[i + order]))
 		}
 	}
-	
 	
 	/// Find all ngrams starting with a capital letter and return a random choice. If new text is added
 	/// to the grams tabel after generating text, `capitalGrams` should be set to `nil` to rebuild the
@@ -66,7 +63,6 @@ class MarkovGenerator: NSObject {
 		
 		return capitalGrams?.randomChoice().key
 	}
-	
 	
 	/// Generate a piece of text based on the `grams` table and the specified order.
 	///

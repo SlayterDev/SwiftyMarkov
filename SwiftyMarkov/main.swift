@@ -8,7 +8,6 @@
 
 import Foundation
 
-
 func showNotification(title: String, text: String) -> Void {
 	let notification = NSUserNotification()
 	notification.title = title
@@ -21,7 +20,8 @@ func showNotification(title: String, text: String) -> Void {
 let bundle = Bundle.main
 var content: String?
 do {
-	content = try String(contentsOf: URL(string: "file://<your-file-here>")!, encoding: String.Encoding.utf8)
+	content = try String(contentsOf:
+						 URL(string: "file://<your-file-here>")!, encoding: String.Encoding.utf8)
 } catch let error as NSError {
 	print("Could not open file: \(error.localizedDescription)")
 	exit(1)
@@ -29,7 +29,7 @@ do {
 
 let paragraphs = content?.components(separatedBy: "\n")
 
-let markov = MarkovGenerator(order: 6)
+let markov = MarkovGenerator(order: 7)
 
 for (i, text) in paragraphs!.enumerated() {
 	markov.analyzeNgrams(text: text)
